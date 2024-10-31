@@ -9719,3 +9719,2275 @@
 15	Latina	Latina	PROPN	_	_	14	flat:name	_	_
 16	http://t.co/nhlQ8NeQX4	http://t.co/nhlQ8NeQX4	SYM	_	_	7	parataxis	_	SpaceAfter=No
 
+# sent_id = dante_01_449617191114387456l
+# text = $CPFE3 - Cpfl Energia (cpfe-nm)   Ago   29/04/2014   10h00  - Dividendo Complementar http://t.co/zeIfMG6sk0
+1	$CPFE3	$CPFE3	PROPN	_	_	12	nmod	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	Cpfl	Cpfl	PROPN	_	_	1	nmod	_	_
+4	Energia	Energia	PROPN	_	_	3	flat:name	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	cpfe-nm	cpfe-nm	PROPN	_	_	1	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	Ago	ago	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+9	29/04/2014	29/04/2014	NUM	_	NumType=Card	8	nmod	_	_
+10	10h00	10h00	NOUN	_	Gender=Fem|Number=Plur	8	nmod	_	_
+11	-	-	PUNCT	_	_	8	punct	_	_
+12	Dividendo	dividendo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+13	Complementar	complementar	ADJ	_	Number=Sing	12	amod	_	_
+14	http://t.co/zeIfMG6sk0	http://t.co/zeIfMG6sk0	SYM	_	_	12	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_452110015714033664l
+# text = ELETROBRAS jscp|aprov 30/4/2014|ex 2/5/2014||pg n/d|ELET3 R$0,39921083663|ELET5 R$2,17825658673|ELET6 R$1,63369244005 http://t.co/IjtHKlQlfr
+1	ELETROBRAS	ELETROBRAS	PROPN	_	_	2	nmod	_	_
+2	jscp	jscp	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	|	|	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	aprov	aprov	X	_	_	2	nmod	_	_
+5	30/4/2014	30/4/2014	NUM	_	NumType=Card	4	nmod	_	SpaceAfter=No
+6	|	|	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	ex	data-ex	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	4	conj	_	FullForm=data-ex
+8	2/5/2014	2/5/2014	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+9	|	|	PUNCT	_	_	11	punct	_	SpaceAfter=No
+10	|	|	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	pg	pagamento	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	4	conj	_	FullForm=pagamento
+12	n/d	n/d	X	_	_	11	nmod	_	SpaceAfter=No
+13	|	|	PUNCT	_	_	15	punct	_	SpaceAfter=No
+14	ELET3	ELET3	PROPN	_	_	15	nmod	_	_
+15	R$	R$	SYM	_	_	2	appos	_	SpaceAfter=No
+16	0,39921083663	0,39921083663	NUM	_	NumType=Card	15	nummod	_	SpaceAfter=No
+17	|	|	PUNCT	_	_	19	punct	_	SpaceAfter=No
+18	ELET5	ELET5	PROPN	_	_	19	nmod	_	_
+19	R$	R$	SYM	_	_	15	conj	_	SpaceAfter=No
+20	2,17825658673	2,17825658673	NUM	_	NumType=Card	19	nummod	_	SpaceAfter=No
+21	|	|	PUNCT	_	_	23	punct	_	SpaceAfter=No
+22	ELET6	ELET6	PROPN	_	_	23	nmod	_	_
+23	R$	R$	SYM	_	_	15	conj	_	SpaceAfter=No
+24	1,63369244005	1,63369244005	NUM	_	NumType=Card	23	nummod	_	_
+25	http://t.co/IjtHKlQlfr	http://t.co/IjtHKlQlfr	SYM	_	_	2	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_456868024990306304l
+# text = A última indicação da #PETR3 resultou em -3.83 %. Confira a nova indicação agora em http://t.co/kgt1YiTbF7
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	#PETR3	#PETR3	PROPN	_	_	3	nmod	_	_
+7	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	-	-	SYM	_	_	10	advmod	_	SpaceAfter=No
+10	3.83	3.83	NUM	_	NumType=Card	11	nummod	_	_
+11	%	%	SYM	_	_	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+13	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	7	parataxis	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nova	novo	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+17	agora	agora	ADV	_	_	13	advmod	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	http://t.co/kgt1YiTbF7	http://t.co/kgt1YiTbF7	SYM	_	_	13	obl	_	SpaceAfter=No
+
+# sent_id = dante_01_448841050694909952l
+# text = #PETR4 com suporte em 14,56...se perder vem testar minima
+1	#PETR4	#PETR4	PROPN	_	_	0	root	_	_
+2	com	com	ADP	_	_	3	case	_	_
+3	suporte	suporte	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	14,56	14,56	NUM	_	NumType=Card	3	nmod	_	SpaceAfter=No
+6	...	...	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	se	se	SCONJ	_	_	8	mark	_	_
+8	perder	perder	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	_
+9	vem	vir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+10	testar	testar	VERB	_	VerbForm=Inf	9	xcomp	_	_
+11	minima	mínima	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	10	obj	_	CorrectForm=mínima|SpaceAfter=No
+
+# sent_id = dante_01_445935450923237377l
+# text = #lame4 bombando!!!
+1	#lame4	#lame4	PROPN	_	_	2	nsubj	_	_
+2	bombando	bombar	VERB	_	VerbForm=Ger	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_451460186029719552l
+# text = RT @AlesandroAlves: A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA, desta vez composta por sen…
+1	RT	RT	X	_	_	6	parataxis	_	_
+2	@AlesandroAlves	@AlesandroAlves	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	oposição	oposição	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	_
+6	protocolou	protocolar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	mais	mais	ADV	_	_	8	advmod	_	_
+8	um	um	NUM	_	Gender=Masc|NumType=Card	9	nummod	_	_
+9	pedido	pedido	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	_
+10	de	de	ADP	_	_	11	case	_	_
+11	criação	criação	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	CPI	CPI	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+14	para	para	ADP	_	_	15	mark	_	_
+15	investigar	investigar	VERB	_	VerbForm=Inf	13	acl	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Petrobras	Petrobras	PROPN	_	_	15	obj	_	_
+18	PETR4.SA	PETR4.SA	PROPN	_	_	17	appos	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	23	punct	_	_
+20-21	desta	_	_	_	_	_	_	_	_
+20	de	de	ADP	_	_	22	case	_	_
+21	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	vez	vez	NOUN	_	Gender=Fem|Number=Sing	23	obl	_	_
+23	composta	compor	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part	13	acl	_	_
+24	por	por	ADP	_	_	25	case	_	_
+25	sen	senador	NOUN	_	Gender=Masc|Number=Plur	23	obl	_	FullForm=senadores|Trunc=Yes|SpaceAfter=No
+26	…	…	PUNCT	_	_	6	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_445254491609128961l
+# text = #BRFS3 : anexo um gráfico mensal dos preços das ações com informações sobre market share e locação de exportação. http://t.co/jvKF9Vgy6N
+1	#BRFS3	#BRFS3	PROPN	_	_	3	parataxis	_	_
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	anexo	anexar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+6	mensal	mensal	ADJ	_	Number=Sing	5	amod	_	_
+7-8	dos	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	preços	preço	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+10-11	das	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	ações	ação	NOUN	_	Gender=Fem|Number=Plur	9	nmod	_	_
+13	com	com	ADP	_	_	14	case	_	_
+14	informações	informação	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+15	sobre	sobre	ADP	_	_	16	case	_	_
+16	market	market	NOUN	_	Gender=Masc|Number=Sing	14	nmod	_	_
+17	share	share	NOUN	_	Gender=Masc|Number=Sing	16	nmod	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	locação	locação	NOUN	_	Gender=Fem|Number=Sing	16	conj	_	_
+20	de	de	ADP	_	_	21	case	_	_
+21	exportação	exportação	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	3	punct	_	_
+23	http://t.co/jvKF9Vgy6N	http://t.co/jvKF9Vgy6N	SYM	_	_	3	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_461152862169726976l
+# text = Rastreamento ações-Gráfico diário-11h. Analise se romper: CYRE3 13,41 GFSA3 3,67 HYPE3 16,68 PETR4 17,14 VIVT4 46,75
+1	Rastreamento	rastreamento	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	list	_	_
+5	diário	diário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	11h	11h	NOUN	_	Gender=Fem|Number=Plur	1	list	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	Analise	analisar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	se	se	SCONJ	_	_	11	mark	_	_
+11	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	CYRE3	CYRE3	PROPN	_	_	11	obj	_	_
+14	13,41	13,41	NUM	_	NumType=Card	13	nmod	_	_
+15	GFSA3	GFSA3	PROPN	_	_	13	conj	_	_
+16	3,67	3,67	NUM	_	NumType=Card	15	nmod	_	_
+17	HYPE3	HYPE3	PROPN	_	_	13	conj	_	_
+18	16,68	16,68	NUM	_	NumType=Card	17	nmod	_	_
+19	PETR4	PETR4	PROPN	_	_	13	conj	_	_
+20	17,14	17,14	NUM	_	NumType=Card	19	nmod	_	_
+21	VIVT4	VIVT4	PROPN	_	_	13	conj	_	_
+22	46,75	46,75	NUM	_	NumType=Card	21	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_461107792137306113l
+# text = Estratégia de Análise Técnica para o pregão de hoje. #analisetecnica http://t.co/zsmrYmk9nY
+1	Estratégia	estratégia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4	Técnica	técnico	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+5	para	para	ADP	_	_	7	case	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	pregão	pregão	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	hoje	hoje	ADV	_	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	1	punct	_	_
+11	#analisetecnica	#analisetecnica	X	_	_	1	parataxis	_	_
+12	http://t.co/zsmrYmk9nY	http://t.co/zsmrYmk9nY	SYM	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_471981619243651072l
+# text = Gol (#GOLL4) fará aumento de capital de R$185,8 milhões. http://t.co/m9QraDXf6m
+1	Gol	Gol	PROPN	_	_	5	nsubj	_	_
+2	(	(	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	#GOLL4	#GOLL4	PROPN	_	_	1	appos	_	SpaceAfter=No
+4	)	)	PUNCT	_	_	3	punct	_	_
+5	fará	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	capital	capital	NOUN	_	Number=Sing	6	nmod	_	_
+9	de	de	ADP	_	_	12	case	_	_
+10	R$	R$	SYM	_	_	12	nmod	_	SpaceAfter=No
+11	185,8	185,8	NUM	_	NumType=Card	12	nummod	_	_
+12	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	5	punct	_	_
+14	http://t.co/m9QraDXf6m	http://t.co/m9QraDXf6m	SYM	_	_	5	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_448861957136068608l
+# text = A última indicação da #KROT3 resultou em 9.87 %. Confira a nova indicação agora em http://t.co/kgt1YiTbF7
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	#KROT3	#KROT3	PROPN	_	_	3	nmod	_	_
+7	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	9.87	9.87	NUM	_	NumType=Card	10	nummod	_	_
+10	%	%	SYM	_	_	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+12	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	7	parataxis	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nova	novo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	agora	agora	ADV	_	_	12	advmod	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	http://t.co/kgt1YiTbF7	http://t.co/kgt1YiTbF7	SYM	_	_	12	obl	_	SpaceAfter=No
+
+# sent_id = dante_01_454616552483323904l
+# text = Conheça a queridinha do Ibovespa, papel é recomendado 15 vezes: A ação da Vale é, pela nona ... http://t.co/dn1MT6Thg6 #infomoney #vale5
+1	Conheça	conhecer	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	queridinha	queridinha	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+4-5	do	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Ibovespa	Ibovespa	PROPN	_	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	10	punct	_	_
+8	papel	papel	NOUN	_	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+9	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	recomendado	recomendar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	parataxis	_	_
+11	15	15	NUM	_	NumType=Card	12	nummod	_	_
+12	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	23	punct	_	_
+14	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	ação	ação	NOUN	_	Gender=Fem|Number=Sing	23	nsubj	_	_
+16-17	da	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Vale	Vale	PROPN	_	_	15	nmod	_	_
+19	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	23	punct	_	_
+21-22	pela	_	_	_	_	_	_	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	nona	nono	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	10	parataxis	_	_
+24	...	...	PUNCT	_	_	1	punct	_	_
+25	http://t.co/dn1MT6Thg6	http://t.co/dn1MT6Thg6	SYM	_	_	1	parataxis	_	_
+26	#infomoney	#infomoney	X	_	_	1	parataxis	_	_
+27	#vale5	#vale5	X	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_454696417660264449l
+# text = Será q #PDGR3 necessita de nota de falecimento? ou este Zumbi já tá enterrado?
+1	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	discourse	_	_
+2	q	que	SCONJ	_	_	4	discourse	_	FullForm=que
+3	#PDGR3	#PDGR3	PROPN	_	_	4	nsubj	_	_
+4	necessita	necessitar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	nota	nota	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	falecimento	falecimento	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	_	_	4	punct	_	_
+10	ou	ou	CCONJ	_	_	15	cc	_	_
+11	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	Zumbi	zumbi	NOUN	_	Gender=Masc|Number=Sing	15	nsubj	_	_
+13	já	já	ADV	_	_	15	advmod	_	_
+14	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	enterrado	enterrado	ADJ	_	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+16	?	?	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_459744386117804032l
+# text = @JorgeRibeiroSE Petrobras PETR4 - Lula capitalizou em 2010 a R$ 26,30. Últimos 6 meses...Março na bacia das almas! http://t.co/l00d2g2AtO
+1	@JorgeRibeiroSE	@JorgeRibeiroSE	PROPN	_	_	6	vocative	_	_
+2	Petrobras	Petrobras	PROPN	_	_	6	obj	_	_
+3	PETR4	PETR4	PROPN	_	_	2	appos	_	_
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+6	capitalizou	capitalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	2010	2010	NUM	_	NumType=Card	6	obl	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	R$	R$	SYM	_	_	6	obl	_	_
+11	26,30	26,30	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+13	Últimos	último	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+14	6	6	NUM	_	NumType=Card	15	nummod	_	_
+15	meses	mês	NOUN	_	Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
+16	...	...	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Março	março	NOUN	_	Gender=Masc|Number=Sing	6	parataxis	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	almas	alma	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	!	!	PUNCT	_	_	17	punct	_	_
+25	http://t.co/l00d2g2AtO	http://t.co/l00d2g2AtO	SYM	_	_	6	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_458947674667241472l
+# text = $ALLL3 - All Amer Lat (alll-nm)- Fato Relevante - Incorporacao De Acoes Da All Pela Rumo http://t.co/ZRKq9cRXet
+1	$ALLL3	$ALLL3	PROPN	_	_	10	nmod	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	All	All	PROPN	_	_	1	nmod	_	_
+4	Amer	Amer	PROPN	_	_	3	flat:name	_	_
+5	Lat	Lat	PROPN	_	_	3	flat:name	_	_
+6	(	(	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	alll-nm	alll-nm	PROPN	_	_	1	appos	_	SpaceAfter=No
+8	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	1	punct	_	_
+10	Fato	fato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+11	Relevante	relevante	ADJ	_	Number=Sing	10	amod	_	_
+12	-	-	PUNCT	_	_	13	punct	_	_
+13	Incorporacao	incorporação	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	10	parataxis	_	CorrectForm=Incorporação
+14	De	de	ADP	_	_	15	case	_	_
+15	Acoes	ação	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	13	nmod	_	CorrectForm=Ações
+16-17	Da	_	_	_	_	_	_	_	_
+16	De	de	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	All	All	PROPN	_	_	15	nmod	_	_
+19-20	Pela	_	_	_	_	_	_	_	_
+19	Por	por	ADP	_	_	21	case	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Rumo	Rumo	PROPN	_	_	13	nmod	_	_
+22	http://t.co/ZRKq9cRXet	http://t.co/ZRKq9cRXet	SYM	_	_	10	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_448901694802632705l
+# text = #petr4 A jovenzinha tá preocupada..rsrsrs  Dilma tem encontro reservado com ministro do TCU. http://t.co/SgPoWh0AY6
+1	#petr4	#petr4	X	_	_	5	parataxis	_	_
+2	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	jovenzinha	jovem	NOUN	_	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	preocupada	preocupado	ADJ	_	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	..	..	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	rsrsrs	rsrsrs	X	_	_	5	discourse	_	_
+8	Dilma	Dilma	PROPN	_	_	9	nsubj	_	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+10	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	reservado	reservado	ADJ	_	Gender=Masc|Number=Sing	10	amod	_	_
+12	com	com	ADP	_	_	13	case	_	_
+13	ministro	ministro	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	TCU	TCU	PROPN	_	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	5	punct	_	_
+18	http://t.co/SgPoWh0AY6	http://t.co/SgPoWh0AY6	SYM	_	_	5	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_453583231980679168l
+# text = Do mesmo que jeito que nunca presenciamos uma alta tão forte em PETR4, estamos vendo um candle baixista de enorme amplitude, raramente visto
+1-2	Do	_	_	_	_	_	_	_	_
+1	De	de	ADP	_	_	5	case	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+4	que	que	PRON	_	PronType=Rel	5	reparandum	_	_
+5	jeito	jeito	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
+6	que	que	PRON	_	_	8	obl	_	_
+7	nunca	nunca	ADV	_	_	8	advmod	_	_
+8	presenciamos	presenciar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	alta	alta	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+11	tão	tão	ADV	_	_	12	advmod	_	_
+12	forte	forte	ADJ	_	Number=Sing	10	amod	_	_
+13	em	em	ADP	_	_	14	case	_	_
+14	PETR4	PETR4	PROPN	_	_	8	obl	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	8	punct	_	_
+16	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	vendo	vender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	candle	candle	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	baixista	baixista	NOUN	_	Number=Sing	19	nmod	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	enorme	enorme	ADJ	_	Number=Sing	23	amod	_	_
+23	amplitude	amplitude	NOUN	_	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	26	punct	_	_
+25	raramente	raramente	ADV	_	_	26	advmod	_	_
+26	visto	ver	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	19	acl	_	SpaceAfter=No
+
+# sent_id = dante_01_461508389697495040l
+# text = #oibr4 se 5'fechar acima 2,20 e romper vai ficar LINNDA
+1	#oibr4	#oibr4	PROPN	_	_	11	nsubj	_	_
+2	se	se	SCONJ	_	_	5	mark	_	_
+3	5	5	NUM	_	NumType=Card	4	nummod	_	CorrectSpaceAfter=Yes|SpaceAfter=No
+4	'	'	SYM	_	_	5	nsubj	_	SpaceAfter=No
+5	fechar	fechar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	advcl	_	_
+6	acima	acima	ADV	_	_	5	advmod	_	_
+7	2,20	2,20	NUM	_	NumType=Card	6	obl	_	_
+8	e	e	CCONJ	_	_	9	cc	_	_
+9	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	conj	_	_
+10	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	ficar	ficar	VERB	_	VerbForm=Inf	0	root	_	_
+12	LINNDA	lindo	ADJ	_	Gender=Fem|Number=Sing	11	xcomp	_	CorrectForm=LINDA|SpaceAfter=No
+
+# sent_id = dante_01_449632457152020480l
+# text = live_trade Marcos, vc se manteve na compra da goll4? de um belo up side
+1	live_trade	live_trade	PROPN	_	_	6	vocative	_	_
+2	Marcos	Marcos	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	1	punct	_	_
+4	vc	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	FullForm=você
+5	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	6	expl	_	_
+6	manteve	manter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	compra	compra	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	goll4	goll4	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	6	punct	_	_
+14	de	dar	VERB	_	Mood=Imp|Number=Sing|Person=3|Typo=Yes|VerbForm=Fin	6	parataxis	_	CorrectForm=dê
+15	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	belo	belo	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+17	up	upside	X	_	Foreign=Yes	14	obj	_	CorrectForm=upside
+18	side	_	X	_	Foreign=Yes	17	flat:foreign	_	SpaceAfter=No
+
+# sent_id = dante_01_441636217332178944l
+# text = #petr4 King Kong 1,48% no DT !!!  Hj tá bão!!!
+1	#petr4	#petr4	PROPN	_	_	5	nsubj	_	_
+2	King	King	PROPN	_	_	1	flat:name	_	_
+3	Kong	Kong	PROPN	_	_	1	flat:name	_	_
+4	1,48	1,48	NUM	_	NumType=Card	5	nummod	_	SpaceAfter=No
+5	%	%	SYM	_	_	0	root	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	DT	DT	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	5	nmod	_	FullForm=daytrade
+9	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	5	punct	_	SpaceAfter=No
+11	!	!	PUNCT	_	_	5	punct	_	_
+12	Hj	hoje	ADV	_	Abbr=Yes	14	advmod	_	FullForm=hoje
+13	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	FullForm=está
+14	bão	bom	ADJ	_	Gender=Masc|Number=Sing|Typo=Yes	5	parataxis	_	CorrectForm=bom|SpaceAfter=No
+15	!	!	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	14	punct	_	SpaceAfter=No
+17	!	!	PUNCT	_	_	14	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_449300443378634752l
+# text = #PETR4 15 min - acho que nao! (mensagem: 952919)  http://t.co/32XqwNSA6Y
+1	#PETR4	#PETR4	PROPN	_	_	0	root	_	_
+2	15	15	NUM	_	NumType=Card	3	nummod	_	_
+3	min	minuto	NOUN	_	Abbr=Yes|Gender=Masc|Number=Plur	1	nmod	_	FullForm=minutos
+4	-	-	PUNCT	_	_	5	punct	_	_
+5	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+6	que	que	SCONJ	_	_	7	mark	_	_
+7	nao	não	ADV	_	Typo=Yes	5	ccomp	_	CorrectForm=não|SpaceAfter=No
+8	!	!	PUNCT	_	_	5	punct	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	mensagem	mensagem	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	12	punct	_	_
+12	952919	952919	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	10	punct	_	_
+14	http://t.co/32XqwNSA6Y	http://t.co/32XqwNSA6Y	SYM	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_451043452910718978l
+# text = 8 corretoras apontam as melhores ações para comprar nesta semana: Os papéis da Vale e do Pão... http://t.co/BYQAlss0OB #infomoney #vale5
+1	8	8	NUM	_	NumType=Card	2	nummod	_	_
+2	corretoras	corretor	NOUN	_	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	melhores	melhor	ADJ	_	Number=Plur	6	amod	_	_
+6	ações	ação	NOUN	_	Gender=Fem|Number=Plur	3	obj	_	_
+7	para	para	ADP	_	_	8	mark	_	_
+8	comprar	comprar	VERB	_	VerbForm=Inf	6	acl	_	_
+9-10	nesta	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	esta	este	DET	_	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	semana	semana	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	14	punct	_	_
+13	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	papéis	papel	NOUN	_	Gender=Masc|Number=Plur	3	parataxis	_	_
+15-16	da	_	_	_	_	_	_	_	_
+15	de	de	ADP	_	_	17	case	_	_
+16	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Vale	Vale	PROPN	_	_	14	nmod	_	_
+18	e	e	CCONJ	_	_	21	cc	_	_
+19-20	do	_	_	_	_	_	_	_	_
+19	de	de	ADP	_	_	21	case	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Pão	Pão	PROPN	_	_	17	conj	_	SpaceAfter=No
+22	...	...	PUNCT	_	_	3	punct	_	_
+23	http://t.co/BYQAlss0OB	http://t.co/BYQAlss0OB	SYM	_	_	3	parataxis	_	_
+24	#infomoney	#infomoney	X	_	_	3	parataxis	_	_
+25	#vale5	#vale5	X	_	_	3	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_464751013887348736l
+# text = Cade aprova aquisição de direitos minerários da Novelis pela Vale: Em documento submetido ao... http://t.co/WZ9SfuDW9J #infomoney #vale5
+1	Cade	Cade	PROPN	_	_	2	nsubj	_	_
+2	aprova	aprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	aquisição	aquisição	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	3	nmod	_	_
+6	minerários	minerário	ADJ	_	Gender=Masc|Number=Plur	5	amod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Novelis	Novelis	PROPN	_	_	3	nmod	_	_
+10-11	pela	_	_	_	_	_	_	_	_
+10	por	por	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Vale	Vale	PROPN	_	_	3	nmod	_	SpaceAfter=No
+13	:	:	PUNCT	_	_	15	punct	_	_
+14	Em	em	ADP	_	_	15	case	_	_
+15	documento	documento	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	_
+16	submetido	submeter	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	15	acl	_	_
+17-18	ao	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	_	_	18	case	_	_
+18	o	o	PRON	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	dep	_	_
+19	...	...	PUNCT	_	_	20	punct	_	_
+20	http://t.co/WZ9SfuDW9J	http://t.co/WZ9SfuDW9J	SYM	_	_	2	parataxis	_	_
+21	#infomoney	#infomoney	X	_	_	2	parataxis	_	_
+22	#vale5	#vale5	X	_	_	2	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_445566470513102849l
+# text = Estrategia para o pregão de  hoje com #DTEX3 http://t.co/fMPFmmOMlj
+1	Estrategia	estratégia	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	0	root	_	CorrectForm=Estratégia
+2	para	para	ADP	_	_	4	case	_	_
+3	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	pregão	pregão	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	hoje	hoje	ADV	_	_	4	advmod	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	#DTEX3	#DTEX3	PROPN	_	_	1	nmod	_	_
+9	http://t.co/fMPFmmOMlj	http://t.co/fMPFmmOMlj	SYM	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_448147129031471105l
+# text = Rastreamento ações-Gráfico diário-14h. Analise se romper:  ABEV3 16,84 BBDC3 30,89 BVMF3 10,51 CCRO3 16,99 CRUZ3 21,20 CSMG3 33,77
+1	Rastreamento	rastreamento	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	list	_	_
+5	diário	diário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	14h	14h	NOUN	_	Gender=Fem|Number=Plur	1	list	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	Analise	analisar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	se	se	SCONJ	_	_	11	mark	_	_
+11	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	ABEV3	ABEV3	PROPN	_	_	11	obj	_	_
+14	16,84	16,84	NUM	_	NumType=Card	13	nmod	_	_
+15	BBDC3	BBDC3	PROPN	_	_	13	conj	_	_
+16	30,89	30,89	NUM	_	NumType=Card	15	nmod	_	_
+17	BVMF3	BVMF3	PROPN	_	_	13	conj	_	_
+18	10,51	10,51	NUM	_	NumType=Card	17	nmod	_	_
+19	CCRO3	CCRO3	PROPN	_	_	13	conj	_	_
+20	16,99	16,99	NUM	_	NumType=Card	19	nmod	_	_
+21	CRUZ3	CRUZ3	PROPN	_	_	13	conj	_	_
+22	21,20	21,20	NUM	_	NumType=Card	21	nmod	_	_
+23	CSMG3	CSMG3	PROPN	_	_	13	conj	_	_
+24	33,77	33,77	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_459033003134840832l
+# text = Venda (pelo grafico semanal) de mrve3 bateu na RP!
+1	Venda	venda	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+2	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+3-4	pelo	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	grafico	gráfico	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	1	nmod	_	CorrectForm=gráfico
+6	semanal	semanal	ADJ	_	Number=Sing	5	amod	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	5	punct	_	_
+8	de	de	ADP	_	_	9	case	_	_
+9	mrve3	mrve3	PROPN	_	_	1	nmod	_	_
+10	bateu	bater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	RP	RP	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+14	!	!	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_446975198274002944l
+# text = já pensou, se para abafar possível 'crise' na #PETR4 a reunião de conselho de hoje decidir por um aumento nos combustíveis ? o.O
+1	já	já	ADV	_	_	2	advmod	_	_
+2	pensou	pensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	se	se	SCONJ	_	_	20	mark	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	abafar	abafar	VERB	_	VerbForm=Inf	20	advcl	_	_
+7	possível	possível	ADJ	_	Number=Sing	9	amod	_	_
+8	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	crise	crise	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	'	'	PUNCT	_	_	9	punct	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	#PETR4	#PETR4	PROPN	_	_	9	nmod	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	reunião	reunião	NOUN	_	Gender=Fem|Number=Sing	20	nsubj	_	_
+16	de	de	ADP	_	_	17	case	_	_
+17	conselho	conselho	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	hoje	hoje	ADV	_	_	15	advmod	_	_
+20	decidir	decidir	VERB	_	VerbForm=Inf	2	ccomp	_	_
+21	por	por	ADP	_	_	23	case	_	_
+22	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	aumento	aumento	NOUN	_	Gender=Masc|Number=Sing	20	obl	_	_
+24-25	nos	_	_	_	_	_	_	_	_
+24	em	em	ADP	_	_	26	case	_	_
+25	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+26	combustíveis	combustível	NOUN	_	Number=Plur	23	nmod	_	_
+27	?	?	PUNCT	_	_	2	punct	_	_
+28	o.O	o.O	SYM	_	_	2	discourse	_	SpaceAfter=No
+
+# sent_id = dante_01_453885671300947968l
+# text = A última indicação da #ELPL4 resultou em 11.43 %. Confira a nova indicação agora em http://t.co/kgt1YiTbF7
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	#ELPL4	#ELPL4	PROPN	_	_	3	nmod	_	_
+7	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	11.43	11.43	NUM	_	NumType=Card	10	nummod	_	_
+10	%	%	SYM	_	_	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	7	punct	_	_
+12	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	7	parataxis	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nova	novo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	12	obj	_	_
+16	agora	agora	ADV	_	_	12	advmod	_	_
+17	em	em	ADP	_	_	18	case	_	_
+18	http://t.co/kgt1YiTbF7	http://t.co/kgt1YiTbF7	SYM	_	_	12	obl	_	SpaceAfter=No
+
+# sent_id = dante_01_445527782475698176l
+# text = $AEDU3 - Anhanguera (aedu-nm) - Demonstracoes Financeiras De 31/12/2013 (individual) http://t.co/ZVvChR52GU
+1	$AEDU3	$AEDU3	PROPN	_	_	8	nmod	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	Anhanguera	Anhanguera	PROPN	_	_	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	aedu-nm	aedu-nm	PROPN	_	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	-	-	PUNCT	_	_	1	punct	_	_
+8	Demonstracoes	demonstração	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	0	root	_	CorrectForm=Demonstrações
+9	Financeiras	financeiro	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	De	de	ADP	_	_	11	case	_	_
+11	31/12/2013	31/12/2013	NUM	_	NumType=Card	8	nmod	_	_
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	individual	individual	ADJ	_	Number=Sing	8	parataxis	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	http://t.co/ZVvChR52GU	http://t.co/ZVvChR52GU	SYM	_	_	8	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_445168467436896256l
+# text = RT @ReidasBlueChips: @valor_economico @valor_consultor @bussoladoinves Análise dos fundamentos do #BancodoBrasil- #BBAS3 até DEZ/2013. http…
+1	RT	RT	X	_	_	7	parataxis	_	_
+2	@ReidasBlueChips	@ReidasBlueChips	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	@valor_economico	@valor_economico	PROPN	_	_	7	vocative	_	_
+5	@valor_consultor	@valor_consultor	PROPN	_	_	7	nmod	_	_
+6	@bussoladoinves	@bussoladoinves	PROPN	_	_	7	vocative	_	_
+7	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8-9	dos	_	_	_	_	_	_	_	_
+8	de	de	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	fundamentos	fundamento	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	_
+11-12	do	_	_	_	_	_	_	_	_
+11	de	de	ADP	_	_	13	case	_	_
+12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	#BancodoBrasil	#BancodoBrasil	PROPN	_	_	10	nmod	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	15	punct	_	_
+15	#BBAS3	#BBAS3	PROPN	_	_	13	appos	_	_
+16	até	até	ADP	_	_	17	case	_	_
+17	DEZ/2013	DEZ/2013	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	7	punct	_	_
+19	http	http	SYM	_	_	7	parataxis	_	SpaceAfter=No
+20	…	…	PUNCT	_	_	7	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_458985701540130816l
+# text = A última indicação da #OIBR4 resultou em -0.75 %. Confira a nova indicação agora em http://t.co/kgt1YiTbF7
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	última	último	ADJ	_	Gender=Fem|Number=Sing	3	amod	_	_
+3	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	#OIBR4	#OIBR4	PROPN	_	_	3	nmod	_	_
+7	resultou	resultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	em	em	ADP	_	_	11	case	_	_
+9	-	-	SYM	_	_	10	advmod	_	SpaceAfter=No
+10	0.75	0.75	NUM	_	NumType=Card	11	nummod	_	_
+11	%	%	SYM	_	_	7	obl	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	7	punct	_	_
+13	Confira	conferir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	7	parataxis	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	nova	novo	ADJ	_	Gender=Fem|Number=Sing	16	amod	_	_
+16	indicação	indicação	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	_
+17	agora	agora	ADV	_	_	13	advmod	_	_
+18	em	em	ADP	_	_	19	case	_	_
+19	http://t.co/kgt1YiTbF7	http://t.co/kgt1YiTbF7	SYM	_	_	13	obl	_	SpaceAfter=No
+
+# sent_id = dante_01_452845851313176577l
+# text = ITUB4 gerou um engolfo de baixa na sexta (6). O que significa e como identificar esse padrão dos candles. Assista! http://t.co/Y73ErhCiRi
+1	ITUB4	ITUB4	PROPN	_	_	2	nsubj	_	_
+2	gerou	gerar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	engolfo	engolfo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	baixa	baixa	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	sexta	sexta-feira	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	2	obl	_	FullForm=sexta-feira
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	6	6	NUM	_	NumType=Card	9	appos	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	2	punct	_	_
+14	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	obj	_	_
+15	que	que	PRON	_	PronType=Rel	14	fixed	_	_
+16	significa	significar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+17	e	e	CCONJ	_	_	19	cc	_	_
+18	como	como	ADV	_	_	19	advmod	_	_
+19	identificar	identificar	VERB	_	VerbForm=Inf	16	conj	_	_
+20	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	21	det	_	_
+21	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	19	obj	_	_
+22-23	dos	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	candles	candle	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	16	punct	_	_
+26	Assista	assistir	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+27	!	!	PUNCT	_	_	26	punct	_	_
+28	http://t.co/Y73ErhCiRi	http://t.co/Y73ErhCiRi	SYM	_	_	2	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_459033882185445376l
+# text = Dia 28 de abril  (segunda) haverá divulgacao de Pesquisa Eleitoral para Presidente contratada pela CNT… #Petr4 Talvez recupere
+1	Dia	dia	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	_
+2	28	28	NUM	_	NumType=Card	1	nmod	_	_
+3	de	de	ADP	_	_	4	case	_	_
+4	abril	abril	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
+5	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	segunda	segunda-feira	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+7	)	)	PUNCT	_	_	6	punct	_	_
+8	haverá	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+9	divulgacao	divulgação	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	8	obj	_	CorrectForm=divulgação
+10	de	de	ADP	_	_	11	case	_	_
+11	Pesquisa	pesquisa	NOUN	_	Gender=Fem|Number=Sing	9	nmod	_	_
+12	Eleitoral	eleitoral	ADJ	_	Number=Sing	11	amod	_	_
+13	para	para	ADP	_	_	14	case	_	_
+14	Presidente	presidente	NOUN	_	Number=Sing	11	nmod	_	_
+15	contratada	contratar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	11	acl	_	_
+16-17	pela	_	_	_	_	_	_	_	_
+16	por	por	ADP	_	_	18	case	_	_
+17	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	CNT	CNT	PROPN	_	_	15	obl:agent	_	SpaceAfter=No
+19	…	…	PUNCT	_	_	8	punct	_	_
+20	#Petr4	#Petr4	PROPN	_	_	22	nsubj	_	_
+21	Talvez	talvez	ADV	_	_	22	advmod	_	_
+22	recupere	recuperar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_446658495862292480l
+# text = #petr4 sem medo de errar, ou essa alta marcou o fim da queda de uma década, ou é só mais um repique momentâneo. Esse ano ainda tem eleições!
+1	#petr4	#petr4	PROPN	_	_	0	root	_	_
+2	sem	sem	ADP	_	_	3	case	_	_
+3	medo	medo	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	de	de	ADP	_	_	5	mark	_	_
+5	errar	errar	VERB	_	VerbForm=Inf	3	acl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	10	punct	_	_
+7	ou	ou	CCONJ	_	_	10	cc	_	_
+8	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	alta	alta	NOUN	_	Gender=Fem|Number=Sing	10	nsubj	_	_
+10	marcou	marcar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	fim	fim	NOUN	_	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	queda	queda	NOUN	_	Gender=Fem|Number=Sing	12	nmod	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	década	década	NOUN	_	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	25	punct	_	_
+20	ou	ou	CCONJ	_	_	25	cc	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+22	só	só	ADV	_	_	25	advmod	_	_
+23	mais	mais	ADV	_	_	24	advmod	_	_
+24	um	um	NUM	_	Gender=Masc|NumType=Card	25	nummod	_	_
+25	repique	repique	NOUN	_	Gender=Masc|Number=Sing	1	conj	_	_
+26	momentâneo	momentâneo	ADJ	_	Gender=Masc|Number=Sing	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	1	punct	_	_
+28	Esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	29	det	_	_
+29	ano	ano	NOUN	_	Gender=Masc|Number=Sing	31	obl	_	_
+30	ainda	ainda	ADV	_	_	31	advmod	_	_
+31	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+32	eleições	eleição	NOUN	_	Gender=Fem|Number=Plur	31	obj	_	SpaceAfter=No
+33	!	!	PUNCT	_	_	31	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_461588891083218944l
+# text = Rastreamento ações-Gráfico diário-16h. Analise se romper: BRFS3 50,33 CTIP3 28,42 CYRE3 13,57 ESTC3 23,59 GETI4 17,83 ODPV3 9,06 VIVT4 46,39
+1	Rastreamento	rastreamento	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	list	_	_
+5	diário	diário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	16h	16h	NOUN	_	Gender=Fem|Number=Plur	1	list	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	Analise	analisar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	se	se	SCONJ	_	_	11	mark	_	_
+11	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	BRFS3	BRFS3	PROPN	_	_	11	obj	_	_
+14	50,33	50,33	NUM	_	NumType=Card	13	nmod	_	_
+15	CTIP3	CTIP3	PROPN	_	_	13	conj	_	_
+16	28,42	28,42	NUM	_	NumType=Card	15	nmod	_	_
+17	CYRE3	CYRE3	PROPN	_	_	13	conj	_	_
+18	13,57	13,57	NUM	_	NumType=Card	17	nmod	_	_
+19	ESTC3	ESTC3	PROPN	_	_	13	conj	_	_
+20	23,59	23,59	NUM	_	NumType=Card	19	nmod	_	_
+21	GETI4	GETI4	PROPN	_	_	13	conj	_	_
+22	17,83	17,83	NUM	_	NumType=Card	21	nmod	_	_
+23	ODPV3	ODPV3	PROPN	_	_	13	conj	_	_
+24	9,06	9,06	NUM	_	NumType=Card	23	nmod	_	_
+25	VIVT4	VIVT4	PROPN	_	_	13	conj	_	_
+26	46,39	46,39	NUM	_	NumType=Card	25	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_451725684054839297l
+# text = Rastreamento ações-Gráfico diário-11h. Analise se romper:  NATU3 38,52 Ativo c/ vol Financeiro Superior à sua MM21-11h: PINE4 TGMA3
+1	Rastreamento	rastreamento	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	list	_	_
+5	diário	diário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	11h	11h	NOUN	_	Gender=Fem|Number=Plur	1	list	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	Analise	analisar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	se	se	SCONJ	_	_	11	mark	_	_
+11	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	NATU3	NATU3	PROPN	_	_	11	obj	_	_
+14	38,52	38,52	NUM	_	NumType=Card	13	nmod	_	_
+15	Ativo	ativo	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+16	c/	com	ADP	_	_	17	case	_	FullForm=com
+17	vol	volume	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	15	nmod	_	FullForm=volume
+18	Financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	17	amod	_	_
+19	Superior	superior	ADJ	_	Number=Sing	17	amod	_	_
+20-21	à	_	_	_	_	_	_	_	_
+20	a	a	ADP	_	_	23	case	_	_
+21	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	seu	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	_
+23	MM21	mm21	NOUN	_	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+25	11h	11h	NOUN	_	Gender=Fem|Number=Plur	15	parataxis	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	27	punct	_	_
+27	PINE4	PINE4	PROPN	_	_	15	appos	_	_
+28	TGMA3	TGMA3	PROPN	_	_	27	conj	_	SpaceAfter=No
+
+# sent_id = dante_01_446767084371206144l
+# text = A LIGHT S.A. fechou o dia de hoje ao preço de R$ 17,67 (+1,26%) com volume de R$ 23,12 mm. $LIGT3
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	LIGHT	LIGHT	PROPN	_	_	4	nsubj	_	_
+3	S.A.	S.A.	PROPN	_	_	2	flat:name	_	_
+4	fechou	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	dia	dia	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_
+7	de	de	ADP	_	_	8	case	_	_
+8	hoje	hoje	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	_
+9-10	ao	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	preço	preço	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+12	de	de	ADP	_	_	13	case	_	_
+13	R$	R$	SYM	_	_	11	nmod	_	_
+14	17,67	17,67	NUM	_	NumType=Card	13	nummod	_	_
+15	(	(	PUNCT	_	_	18	punct	_	SpaceAfter=No
+16	+	+	SYM	_	_	17	advmod	_	SpaceAfter=No
+17	1,26	1,26	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+18	%	%	SYM	_	_	13	parataxis	_	SpaceAfter=No
+19	)	)	PUNCT	_	_	18	punct	_	_
+20	com	com	ADP	_	_	21	case	_	_
+21	volume	volume	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+22	de	de	ADP	_	_	25	case	_	_
+23	R$	R$	SYM	_	_	25	nmod	_	_
+24	23,12	23,12	NUM	_	NumType=Card	25	nummod	_	_
+25	mm	milhão	NOUN	_	Abbr=Yes|Gender=Masc|Number=Plur	21	nmod	_	FullForm=milhões|SpaceAfter=No
+26	.	.	PUNCT	_	_	4	punct	_	_
+27	$LIGT3	$LIGT3	X	_	_	4	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_449245650182352896l
+# text = CALL DADO EM OIBR4!
+1	CALL	call	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	DADO	dar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	_
+3	EM	em	ADP	_	_	4	case	_	_
+4	OIBR4	OIBR4	PROPN	_	_	1	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_461488015316385792l
+# text = #VALE5 Vale registra lucro de R$ 5,58 bilhões no 1º trimestre de 2014 http://t.co/vzB8IEpGay http://t.co/Mias0qSYD8
+1	#VALE5	#VALE5	PROPN	_	_	3	nsubj	_	_
+2	Vale	Vale	PROPN	_	_	1	appos	_	_
+3	registra	registrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	lucro	lucro	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+5	de	de	ADP	_	_	8	case	_	_
+6	R$	R$	SYM	_	_	8	nmod	_	_
+7	5,58	5,58	NUM	_	NumType=Card	8	nummod	_	_
+8	bilhões	bilhão	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+9-10	no	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	12	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	1º	1º	ADJ	_	Gender=Masc|NumType=Ord	12	amod	_	_
+12	trimestre	trimestre	NOUN	_	Number=Sing	3	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	2014	2014	NUM	_	NumType=Card	12	nmod	_	_
+15	http://t.co/vzB8IEpGay	http://t.co/vzB8IEpGay	SYM	_	_	3	parataxis	_	_
+16	http://t.co/Mias0qSYD8	http://t.co/Mias0qSYD8	SYM	_	_	3	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_444539036682575872l
+# text = O que há de melhor na Bovespa: as ações mais indicadas pelos analistas: A Vale ficou em prim... http://t.co/tkdUiSqQUs #infomoney #vale5
+1	O	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+2	que	que	PRON	_	PronType=Rel	3	obj	_	_
+3	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	melhor	melhor	ADJ	_	Number=Sing	3	obl	_	_
+6-7	na	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Bovespa	Bovespa	PROPN	_	_	3	obl	_	SpaceAfter=No
+9	:	:	PUNCT	_	_	11	punct	_	_
+10	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	conj	_	_
+12	mais	mais	ADV	_	_	13	advmod	_	_
+13	indicadas	indicar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	11	acl	_	_
+14-15	pelos	_	_	_	_	_	_	_	_
+14	por	por	ADP	_	_	16	case	_	_
+15	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	analistas	analista	NOUN	_	Number=Plur	13	obl:agent	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	20	punct	_	_
+18	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Vale	Vale	PROPN	_	_	20	nsubj	_	_
+20	ficou	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	conj	_	_
+21	em	em	ADP	_	_	22	case	_	_
+22	prim	primeiro	ADJ	_	Gender=Masc|Number=Sing	20	obl	_	FullForm=primeiro|Trunc=Yes|SpaceAfter=No
+23	...	...	PUNCT	_	_	1	punct	_	_
+24	http://t.co/tkdUiSqQUs	http://t.co/tkdUiSqQUs	SYM	_	_	1	parataxis	_	_
+25	#infomoney	#infomoney	X	_	_	1	parataxis	_	_
+26	#vale5	#vale5	X	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_468819730334093313l
+# text = Conheça a melhor ação para comprar agora, segundo analistas: As ações da Ambev foram as favo... http://t.co/EalSBqHZzL #infomoney #vale5
+1	Conheça	conhecer	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	melhor	melhor	ADJ	_	Number=Sing	4	amod	_	_
+4	ação	ação	NOUN	_	Gender=Fem|Number=Sing	1	obj	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	comprar	comprar	VERB	_	VerbForm=Inf	4	acl	_	_
+7	agora	agora	ADV	_	_	6	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	10	punct	_	_
+9	segundo	segundo	ADP	_	_	10	case	_	_
+10	analistas	analista	NOUN	_	Number=Plur	4	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	19	punct	_	_
+12	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	ações	ação	NOUN	_	Gender=Fem|Number=Plur	19	nsubj	_	_
+14-15	da	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Ambev	Ambev	PROPN	_	_	13	nmod	_	_
+17	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+18	as	o	DET	_	Gender=Fem|Number=Plur|PronType=Dem	19	det	_	_
+19	favo	favo	ADJ	_	Gender=Fem|Number=Plur	1	parataxis	_	FullForm=favoritas|Trunc=Yes|SpaceAfter=No
+20	...	...	PUNCT	_	_	1	punct	_	_
+21	http://t.co/EalSBqHZzL	http://t.co/EalSBqHZzL	SYM	_	_	1	parataxis	_	_
+22	#infomoney	#infomoney	X	_	_	1	parataxis	_	_
+23	#vale5	#vale5	X	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_459001408889847809l
+# text = De qualquer forma tento uma compra com posição menor, stop fundo do dia #petr4
+1	De	de	ADP	_	_	3	case	_	_
+2	qualquer	qualquer	DET	_	Number=Sing|PronType=Ind	3	det	_	_
+3	forma	forma	NOUN	_	Gender=Fem|Number=Sing	4	obl	_	_
+4	tento	tentar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	compra	compra	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	_
+7	com	com	ADP	_	_	8	case	_	_
+8	posição	posição	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9	menor	menor	ADJ	_	Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	11	punct	_	_
+11	stop	stop	NOUN	_	Gender=Masc|Number=Sing	6	appos	_	_
+12	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	dia	dia	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+16	#petr4	#petr4	X	_	_	4	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_448289071920472064l
+# text = @ferrisss : sua compra dias atras de #JBSS3 fez volume > da média (rs). Vc deve ter comprado um fundo. Parabéns +1x http://t.co/MpQ0Bh0E94
+1	@ferrisss	@ferrisss	PROPN	_	_	9	vocative	_	_
+2	:	:	PUNCT	_	_	1	punct	_	_
+3	sua	seu	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	_
+4	compra	compra	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+5	dias	dia	NOUN	_	Gender=Masc|Number=Plur	4	nmod	_	_
+6	atras	atrás	ADV	_	Typo=Yes	5	advmod	_	CorrectForm=atrás
+7	de	de	ADP	_	_	8	case	_	_
+8	#JBSS3	#JBSS3	PROPN	_	_	4	nmod	_	_
+9	fez	fazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	volume	volume	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	_
+11	>	>	PUNCT	_	_	14	punct	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	média	média	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	_
+15	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	rs	rs	X	_	_	14	discourse	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	9	punct	_	_
+19	Vc	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	20	nsubj	_	FullForm=você
+20	deve	dever	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+21	ter	ter	AUX	_	VerbForm=Inf	22	aux	_	_
+22	comprado	comprar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	20	xcomp	_	_
+23	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	fundo	fundo	NOUN	_	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	20	punct	_	_
+26	Parabéns	parabéns	NOUN	_	Gender=Masc|Number=Plur	9	parataxis	_	_
+27	+	mais	ADV	_	_	28	advmod	_	SpaceAfter=No
+28	1x	1x	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29	http://t.co/MpQ0Bh0E94	http://t.co/MpQ0Bh0E94	SYM	_	_	9	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_445967525386665984l
+# text = nova resistência pela frente da #PETR4 ... os R$12,95~13,00 ... Vamos ver se fura ! =)
+1	nova	novo	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	_
+2	resistência	resistência	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3-4	pela	_	_	_	_	_	_	_	_
+3	por	por	ADP	_	_	5	case	_	_
+4	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frente	frente	NOUN	_	Number=Sing	2	nmod	_	_
+6-7	da	_	_	_	_	_	_	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	#PETR4	#PETR4	PROPN	_	_	2	nmod	_	_
+9	...	...	PUNCT	_	_	2	punct	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	R$	R$	SYM	_	_	14	reparandum	_	SpaceAfter=No
+12	12,95	12,95	NUM	_	NumType=Card	11	nummod	_	SpaceAfter=No
+13	~	~	SYM	_	_	14	advmod	_	SpaceAfter=No
+14	13,00	13,00	NUM	_	NumType=Card	2	parataxis	_	_
+15	...	...	PUNCT	_	_	14	punct	_	_
+16	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	ver	ver	VERB	_	VerbForm=Inf	2	parataxis	_	_
+18	se	se	SCONJ	_	_	19	mark	_	_
+19	fura	furar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+20	!	!	PUNCT	_	_	17	punct	_	_
+21	=)	=)	SYM	_	_	2	discourse	_	SpaceAfter=No
+
+# sent_id = dante_01_452093340193157121l
+# text = @DuctorMarcus ainda bem que eu estava comprado em #vale5 e aproveitei toda essa alta. Bora pensar na melhor hora de realizar @lambari_trader
+1	@DuctorMarcus	@DuctorMarcus	PROPN	_	_	3	vocative	_	_
+2	ainda	ainda	ADV	_	_	3	advmod	_	_
+3	bem	bem	ADV	_	_	0	root	_	_
+4	que	que	SCONJ	_	_	7	mark	_	_
+5	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	comprado	comprado	ADJ	_	Gender=Masc|Number=Sing	3	csubj	_	_
+8	em	em	ADP	_	_	9	case	_	_
+9	#vale5	#vale5	PROPN	_	_	7	obl	_	_
+10	e	e	CCONJ	_	_	11	cc	_	_
+11	aproveitei	aproveitar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	conj	_	_
+12	toda	todo	DET	_	Gender=Fem|Number=Sing|PronType=Ind	14	det	_	_
+13	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	alta	alta	NOUN	_	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	3	punct	_	_
+16	Bora	bora	INTJ	_	_	17	discourse	_	_
+17	pensar	pensar	VERB	_	VerbForm=Inf	3	parataxis	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	21	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	melhor	melhor	ADJ	_	Number=Sing	21	amod	_	_
+21	hora	hora	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+22	de	de	ADP	_	_	23	mark	_	_
+23	realizar	realizar	VERB	_	VerbForm=Inf	21	acl	_	_
+24	@lambari_trader	@lambari_trader	PROPN	_	_	17	vocative	_	SpaceAfter=No
+
+# sent_id = dante_01_449551763301883904l
+# text = Pessoal,  Havia sugerido operações de venda nos papéis SUZB5 e FIBR3 e que foram acionados.  SE, por acaso,... http://t.co/F40gTjAjt3
+1	Pessoal	pessoal	NOUN	_	Number=Sing	4	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Havia	haver	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	_
+4	sugerido	sugerir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
+5	operações	operação	NOUN	_	Gender=Fem|Number=Plur	4	obj	_	_
+6	de	de	ADP	_	_	7	case	_	_
+7	venda	venda	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	nos	_	_	_	_	_	_	_	_
+8	em	em	ADP	_	_	10	case	_	_
+9	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	papéis	papel	NOUN	_	Gender=Masc|Number=Plur	5	nmod	_	_
+11	SUZB5	SUZB5	PROPN	_	_	10	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	FIBR3	FIBR3	PROPN	_	_	11	conj	_	_
+14	e	e	CCONJ	_	_	17	cc	_	_
+15	que	que	PRON	_	PronType=Rel	17	nsubj:pass	_	_
+16	foram	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	aux:pass	_	_
+17	acionados	acionar	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	11	acl:relcl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	4	punct	_	_
+19	SE	se	SCONJ	_	_	22	mark	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	22	punct	_	_
+21	por	por	ADP	_	_	22	case	_	_
+22	acaso	acaso	NOUN	_	Gender=Masc|Number=Sing	4	parataxis	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	...	...	PUNCT	_	_	25	punct	_	_
+25	http://t.co/F40gTjAjt3	http://t.co/F40gTjAjt3	SYM	_	_	4	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_446377336146251776l
+# text = $VALE3 - Vale (vale-n1)   Ago/e   17/04/2014   11h00 http://t.co/yYZR3MNNu2
+1	$VALE3	$VALE3	PROPN	_	_	7	nmod	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	Vale	Vale	PROPN	_	_	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	vale-n1	vale-n1	PROPN	_	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	Ago/e	ago/e	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+8	17/04/2014	17/04/2014	NUM	_	NumType=Card	7	nmod	_	_
+9	11h00	11h00	NOUN	_	Gender=Fem|Number=Plur	7	nmod	_	_
+10	http://t.co/yYZR3MNNu2	http://t.co/yYZR3MNNu2	SYM	_	_	7	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_449326477944049664l
+# text = @marisascruz @StreetTed Precisa saber-se mais de que... Em fevereiro de 2003 inicio de Lula pós FHC a #PETR4 valia R$ 46,56.. fev 14 R$13,25
+1	@marisascruz	@marisascruz	PROPN	_	_	3	vocative	_	_
+2	@StreetTed	@StreetTed	PROPN	_	_	3	vocative	_	_
+3	Precisa	precisar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	saber	saber	VERB	_	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	_	_
+7	mais	mais	ADV	_	_	4	advmod	_	_
+8	de	de	ADP	_	_	4	mark	_	_
+9	que	que	SCONJ	_	_	8	fixed	_	SpaceAfter=No
+10	...	...	PUNCT	_	_	3	punct	_	_
+11	Em	em	ADP	_	_	12	case	_	_
+12	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	22	obl	_	_
+13	de	de	ADP	_	_	14	case	_	_
+14	2003	2003	NUM	_	NumType=Card	12	nmod	_	_
+15	inicio	ínicio	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	12	appos	_	CorrectForm=início
+16	de	de	ADP	_	_	17	case	_	_
+17	Lula	Lula	PROPN	_	_	15	nmod	_	_
+18	pós	pós	ADP	_	_	19	case	_	_
+19	FHC	FHC	PROPN	_	_	15	nmod	_	_
+20	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	#PETR4	#PETR4	PROPN	_	_	22	nsubj	_	_
+22	valia	valer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis	_	_
+23	R$	R$	SYM	_	_	22	obj	_	_
+24	46,56	46,56	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+25	..	..	PUNCT	_	_	28	punct	_	_
+26	fev	fevereiro	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	28	nmod	_	FullForm=fevereiro
+27	14	14	NUM	_	NumType=Card	26	nmod	_	_
+28	R$	R$	SYM	_	_	23	conj	_	SpaceAfter=No
+29	13,25	13,25	NUM	_	NumType=Card	28	nummod	_	SpaceAfter=No
+
+# sent_id = dante_01_446333972562591745l
+# text = enquanto isso #lame4 rs
+1	enquanto	enquanto	ADV	_	_	0	root	_	_
+2	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	1	fixed	_	_
+3	#lame4	#lame4	PROPN	_	_	1	parataxis	_	_
+4	rs	rs	X	_	_	1	discourse	_	SpaceAfter=No
+
+# sent_id = dante_01_448117004852273153l
+# text = #PETR3 #PETR4 - Petrobras abriu mão de cobrar calote da Venezuela - http://t.co/TTxrHYnkcM
+1	#PETR3	#PETR3	X	_	_	5	parataxis	_	_
+2	#PETR4	#PETR4	X	_	_	5	parataxis	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	Petrobras	Petrobras	PROPN	_	_	5	nsubj	_	_
+5	abriu	abrir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+6	mão	mão	NOUN	_	Gender=Fem|Number=Sing	5	obj	_	_
+7	de	de	ADP	_	_	8	mark	_	_
+8	cobrar	cobrar	VERB	_	VerbForm=Inf	5	xcomp	_	_
+9	calote	calote	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+10-11	da	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Venezuela	Venezuela	PROPN	_	_	9	nmod	_	_
+13	-	-	PUNCT	_	_	14	punct	_	_
+14	http://t.co/TTxrHYnkcM	http://t.co/TTxrHYnkcM	SYM	_	_	5	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_441946579118063616l
+# text = #VALE5 NEXT VINTE E SETE E DEZ ...
+1	#VALE5	#VALE5	PROPN	_	_	0	root	_	_
+2	NEXT	NEXT	X	_	Foreign=Yes	3	dep	_	_
+3	VINTE	vinte	NUM	_	NumType=Card	1	nmod	_	_
+4	E	e	CCONJ	_	_	5	cc	_	_
+5	SETE	sete	NUM	_	NumType=Card	3	conj	_	_
+6	E	e	CCONJ	_	_	7	cc	_	_
+7	DEZ	dez	NUM	_	NumType=Card	3	conj	_	_
+8	...	...	PUNCT	_	_	1	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_443135397691154432l
+# text = @PBOLSA #IBOV fecha em baixa de 1,54% aos 45.533 pontos. #AL #BR #PETR4 #VALE5
+1	@PBOLSA	@PBOLSA	PROPN	_	_	3	vocative	_	_
+2	#IBOV	#IBOV	PROPN	_	_	3	nsubj	_	_
+3	fecha	fechar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	em	em	ADP	_	_	5	case	_	_
+5	baixa	baixa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+6	de	de	ADP	_	_	8	case	_	_
+7	1,54	1,54	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	_	_	5	nmod	_	_
+9-10	aos	_	_	_	_	_	_	_	_
+9	a	a	ADP	_	_	12	case	_	_
+10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+11	45.533	45.533	NUM	_	NumType=Card	12	nummod	_	_
+12	pontos	ponto	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	3	punct	_	_
+14	#AL	#AL	X	_	_	3	parataxis	_	_
+15	#BR	#BR	X	_	_	3	parataxis	_	_
+16	#PETR4	#PETR4	X	_	_	3	parataxis	_	_
+17	#VALE5	#VALE5	X	_	_	3	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_460830488996114432l
+# text = Rastreamento ações-Gráfico diário-14h. Analise se romper:  ARTR3 18,98 BBAS3 23,35 BBTG11 30,68 BOVA11 50,13 CMIG4 16,23 ELET3 7,77
+1	Rastreamento	rastreamento	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	list	_	_
+5	diário	diário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	14h	14h	NOUN	_	Gender=Fem|Number=Plur	1	list	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	Analise	analisar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	se	se	SCONJ	_	_	11	mark	_	_
+11	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	ARTR3	ARTR3	PROPN	_	_	11	obj	_	_
+14	18,98	18,98	NUM	_	NumType=Card	13	nmod	_	_
+15	BBAS3	BBAS3	PROPN	_	_	13	conj	_	_
+16	23,35	23,35	NUM	_	NumType=Card	15	nmod	_	_
+17	BBTG11	BBTG11	PROPN	_	_	13	conj	_	_
+18	30,68	30,68	NUM	_	NumType=Card	17	nmod	_	_
+19	BOVA11	BOVA11	PROPN	_	_	13	conj	_	_
+20	50,13	50,13	NUM	_	NumType=Card	19	nmod	_	_
+21	CMIG4	CMIG4	PROPN	_	_	13	conj	_	_
+22	16,23	16,23	NUM	_	NumType=Card	21	nmod	_	_
+23	ELET3	ELET3	PROPN	_	_	13	conj	_	_
+24	7,77	7,77	NUM	_	NumType=Card	23	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_445928106705321984l
+# text = projeção de volume para a #PETR4 tá monstruosa ! Mais de 50 milhões de ações ! o.O De olhoooo !!!
+1	projeção	projeção	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	nmod	_	_
+4	para	para	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	#PETR4	#PETR4	PROPN	_	_	1	nmod	_	_
+7	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	FullForm=está
+8	monstruosa	monstruoso	ADJ	_	Gender=Fem|Number=Sing	0	root	_	_
+9	!	!	PUNCT	_	_	8	punct	_	_
+10	Mais	mais	ADV	_	_	12	advmod	_	_
+11	de	de	ADP	_	_	10	fixed	_	_
+12	50	50	NUM	_	NumType=Card	13	nummod	_	_
+13	milhões	milhão	NOUN	_	Gender=Masc|Number=Plur	8	parataxis	_	_
+14	de	de	ADP	_	_	15	case	_	_
+15	ações	ação	NOUN	_	Gender=Fem|Number=Plur	13	nmod	_	_
+16	!	!	PUNCT	_	_	13	punct	_	_
+17	o.O	o.O	SYM	_	_	8	discourse	_	_
+18	De	de	ADP	_	_	19	case	_	_
+19	olhoooo	olho	NOUN	_	Gender=Masc|Number=Sing	8	parataxis	_	_
+20	!	!	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	!	!	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	!	!	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_459134249883697154l
+# text = @Andresmoraes @YouTube Segundo violino na estc3. Ser estopado num ativo com essa tendência de alta doi...
+1	@Andresmoraes	@Andresmoraes	PROPN	_	_	19	vocative	_	_
+2	@YouTube	@YouTube	PROPN	_	_	19	vocative	_	_
+3	Segundo	segundo	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	_
+4	violino	violino	NOUN	_	Gender=Masc|Number=Sing	19	parataxis	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	estc3	estc3	PROPN	_	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	4	punct	_	_
+9	Ser	ser	AUX	_	VerbForm=Inf	10	aux:pass	_	_
+10	estopado	estopar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	19	csubj	_	_
+11-12	num	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ativo	ativo	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	_
+14	com	com	ADP	_	_	16	case	_	_
+15	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+16	tendência	tendência	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	_
+17	de	de	ADP	_	_	18	case	_	_
+18	alta	alta	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+19	doi	doer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=dói|SpaceAfter=No
+20	...	...	PUNCT	_	_	19	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_446399405969932288l
+# text = Maiores Altas: LLXL3 +15,66% | ELET3 +6,14% | BBAS3 +4,59% | CESP6 +4,37% | QUAL3 +4,07%.
+1	Maiores	maior	ADJ	_	Number=Plur	2	amod	_	_
+2	Altas	alta	NOUN	_	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	4	punct	_	_
+4	LLXL3	LLXL3	PROPN	_	_	2	appos	_	_
+5	+	+	SYM	_	_	6	advmod	_	SpaceAfter=No
+6	15,66	15,66	NUM	_	NumType=Card	7	nummod	_	SpaceAfter=No
+7	%	%	SYM	_	_	4	nmod	_	_
+8	|	|	PUNCT	_	_	9	punct	_	_
+9	ELET3	ELET3	PROPN	_	_	4	conj	_	_
+10	+	+	SYM	_	_	11	advmod	_	SpaceAfter=No
+11	6,14	6,14	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
+12	%	%	SYM	_	_	9	nmod	_	_
+13	|	|	PUNCT	_	_	14	punct	_	_
+14	BBAS3	BBAS3	PROPN	_	_	4	conj	_	_
+15	+	+	SYM	_	_	16	advmod	_	SpaceAfter=No
+16	4,59	4,59	NUM	_	NumType=Card	17	nummod	_	SpaceAfter=No
+17	%	%	SYM	_	_	14	nmod	_	_
+18	|	|	PUNCT	_	_	19	punct	_	_
+19	CESP6	CESP6	PROPN	_	_	4	conj	_	_
+20	+	+	SYM	_	_	21	advmod	_	SpaceAfter=No
+21	4,37	4,37	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+22	%	%	SYM	_	_	19	nmod	_	_
+23	|	|	PUNCT	_	_	24	punct	_	_
+24	QUAL3	QUAL3	PROPN	_	_	4	conj	_	_
+25	+	+	SYM	_	_	26	advmod	_	SpaceAfter=No
+26	4,07	4,07	NUM	_	NumType=Card	27	nummod	_	SpaceAfter=No
+27	%	%	SYM	_	_	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_444081961909633024l
+# text = $PETR3 - Petrobras (petr) - Comprova Descoberta Em Aguas Profundas Na Bacia Potiguar http://t.co/3JseOl3iVW
+1	$PETR3	$PETR3	X	_	_	8	parataxis	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	Petrobras	Petrobras	PROPN	_	_	8	nsubj	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	petr	petr	PROPN	_	_	3	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	-	-	PUNCT	_	_	3	punct	_	_
+8	Comprova	comprovar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	Descoberta	descoberta	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	_
+10	Em	em	ADP	_	_	11	case	_	_
+11	Aguas	água	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	9	nmod	_	CorrectForm=Águas
+12	Profundas	profundo	ADJ	_	Gender=Fem|Number=Plur	11	amod	_	_
+13-14	Na	_	_	_	_	_	_	_	_
+13	Em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Bacia	Bacia	PROPN	_	_	9	nmod	_	_
+16	Potiguar	Potiguar	PROPN	_	_	15	nmod	_	_
+17	http://t.co/3JseOl3iVW	http://t.co/3JseOl3iVW	SYM	_	_	8	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_443436776175443968l
+# text = Vc tem dúvida q o #IBOLESMA está a cara do PT? A #PETR4 é 13! a #VALE5 é 2 vezes 13, q é 26 e a #OGXP3 é 0,26 ou seja 13 dividido p/50!
+1	Vc	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	FullForm=você
+2	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dúvida	dúvida	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+4	q	que	SCONJ	_	_	9	mark	_	FullForm=que
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	#IBOLESMA	#IBOLESMA	PROPN	_	_	9	nsubj	_	_
+7	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	cara	cara	NOUN	_	Number=Sing	3	acl	_	_
+10-11	do	_	_	_	_	_	_	_	_
+10	de	de	ADP	_	_	12	case	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	PT	PT	PROPN	_	_	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	_	_	2	punct	_	_
+14	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	#PETR4	#PETR4	PROPN	_	_	17	nsubj	_	_
+16	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	13	13	NUM	_	NumType=Card	2	parataxis	_	SpaceAfter=No
+18	!	!	PUNCT	_	_	17	punct	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	#VALE5	#VALE5	PROPN	_	_	23	nsubj	_	_
+21	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	2	2	NUM	_	NumType=Card	23	nummod	_	_
+23	vezes	vez	NOUN	_	Gender=Fem|Number=Plur	17	conj	_	_
+24	13	13	NUM	_	NumType=Card	23	nummod	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	28	punct	_	_
+26	q	que	PRON	_	PronType=Rel	28	nsubj	_	FullForm=que
+27	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+28	26	26	NUM	_	NumType=Card	23	acl	_	_
+29	e	e	CCONJ	_	_	33	cc	_	_
+30	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
+31	#OGXP3	#OGXP3	PROPN	_	_	33	nsubj	_	_
+32	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	0,26	0,26	NUM	_	NumType=Card	17	conj	_	_
+34	ou	ou	CCONJ	_	_	36	cc	_	_
+35	seja	ser	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	fixed	_	_
+36	13	13	NUM	_	NumType=Card	33	conj	_	_
+37	dividido	dividir	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	36	acl	_	_
+38	p/	para	ADP	_	_	39	case	_	FullForm=para|SpaceAfter=No
+39	50	50	NUM	_	NumType=Card	37	obl	_	SpaceAfter=No
+40	!	!	PUNCT	_	_	33	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_462323742912557057l
+# text = OIBR4 vai explodir no leilão.
+1	OIBR4	OIBR4	PROPN	_	_	3	nsubj	_	_
+2	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	explodir	explodir	VERB	_	VerbForm=Inf	0	root	_	_
+4-5	no	_	_	_	_	_	_	_	_
+4	em	em	ADP	_	_	6	case	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	leilão	leilão	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_456154554036264963l
+# text = Cada vez que ouço a G. Foster defendendo o plano de investimento da @petrobras, mais me certifico que devemos comprar PETR3 e 4 na BOVESPA
+1	Cada	cada	DET	_	Number=Sing|PronType=Ind	4	det	_	_
+2	vez	vez	NOUN	_	Gender=Fem|Number=Sing	1	fixed	_	_
+3	que	que	SCONJ	_	_	1	fixed	_	_
+4	ouço	ouvir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+5	a	a	ADP	_	_	6	case	_	_
+6	G.	G.	PROPN	_	_	4	obl	_	FullForm=Graça
+7	Foster	Foster	PROPN	_	_	6	flat:name	_	_
+8	defendendo	defender	VERB	_	VerbForm=Ger	6	acl	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	plano	plano	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11	de	de	ADP	_	_	12	case	_	_
+12	investimento	investimento	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	@petrobras	@petrobras	PROPN	_	_	12	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	4	punct	_	_
+17	mais	mais	ADV	_	_	19	advmod	_	_
+18	me	me	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	expl	_	_
+19	certifico	certificar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	que	que	SCONJ	_	_	21	mark	_	_
+21	devemos	dever	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+22	comprar	comprar	VERB	_	VerbForm=Inf	21	xcomp	_	_
+23	PETR3	PETR3	PROPN	_	_	22	obj	_	_
+24	e	e	CCONJ	_	_	25	cc	_	_
+25	4	4	PROPN	_	_	23	conj	_	_
+26-27	na	_	_	_	_	_	_	_	_
+26	em	em	ADP	_	_	28	case	_	_
+27	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	BOVESPA	BOVESPA	PROPN	_	_	22	obl	_	SpaceAfter=No
+
+# sent_id = dante_01_457735688990228481l
+# text = PPS é diff dos outros Socialistas? Pasadenagate: novos documentos complicam Dilma e apontam necessidade de CPI #PETR4 http://t.co/XvDEzBtB98
+1	PPS	PPS	PROPN	_	_	3	nsubj	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	diff	diff	X	_	Foreign=Yes	0	root	_	_
+4-5	dos	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	7	case	_	_
+5	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	outros	outro	DET	_	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	Socialistas	socialista	NOUN	_	Number=Plur	3	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	_	_	3	punct	_	_
+9	Pasadenagate	Pasadenagate	PROPN	_	_	13	parataxis	_	SpaceAfter=No
+10	:	:	PUNCT	_	_	9	punct	_	_
+11	novos	novo	ADJ	_	Gender=Masc|Number=Plur	12	amod	_	_
+12	documentos	documento	NOUN	_	Gender=Masc|Number=Plur	13	nsubj	_	_
+13	complicam	complicar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+14	Dilma	Dilma	PROPN	_	_	13	obj	_	_
+15	e	e	CCONJ	_	_	16	cc	_	_
+16	apontam	apontar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	conj	_	_
+17	necessidade	necessidade	NOUN	_	Gender=Fem|Number=Sing	16	obj	_	_
+18	de	de	ADP	_	_	19	case	_	_
+19	CPI	CPI	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+20	#PETR4	#PETR4	X	_	_	3	parataxis	_	_
+21	http://t.co/XvDEzBtB98	http://t.co/XvDEzBtB98	SYM	_	_	3	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_462312886463787008l
+# text = De manhã recebi este gráfico diário da #PETR4 com as projeções do finado #Fibonacci . http://t.co/ev8FmON0yB
+1	De	de	ADP	_	_	2	case	_	_
+2	manhã	manhã	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	_
+3	recebi	receber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	_
+6	diário	diário	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	_
+7-8	da	_	_	_	_	_	_	_	_
+7	de	de	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	#PETR4	#PETR4	PROPN	_	_	5	nmod	_	_
+10	com	com	ADP	_	_	12	case	_	_
+11	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	projeções	projeção	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	_
+13-14	do	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	16	case	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	finado	finado	ADJ	_	Gender=Masc|Number=Sing	16	amod	_	_
+16	#Fibonacci	#Fibonacci	PROPN	_	_	12	nmod	_	_
+17	.	.	PUNCT	_	_	3	punct	_	_
+18	http://t.co/ev8FmON0yB	http://t.co/ev8FmON0yB	SYM	_	_	3	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_453237939460669440l
+# text = #SANB11 - Santander Brasil assina contrato para compra da Getnet - http://t.co/H56HB4FQ41
+1	#SANB11	#SANB11	X	_	_	5	parataxis	_	_
+2	-	-	PUNCT	_	_	1	punct	_	_
+3	Santander	Santander	PROPN	_	_	5	nsubj	_	_
+4	Brasil	Brasil	PROPN	_	_	3	flat:name	_	_
+5	assina	assinar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	contrato	contrato	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+7	para	para	ADP	_	_	8	case	_	_
+8	compra	compra	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Getnet	Getnet	PROPN	_	_	8	nmod	_	_
+12	-	-	PUNCT	_	_	13	punct	_	_
+13	http://t.co/H56HB4FQ41	http://t.co/H56HB4FQ41	SYM	_	_	5	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_459745055658745856l
+# text = @Folhaovento Petrobras PETR4 - Lula capitalizou em 2010 a R$ 26,30. Últimos 6 meses...Março na bacia das almas! http://t.co/l00d2g2AtO
+1	@Folhaovento	@Folhaovento	PROPN	_	_	6	vocative	_	_
+2	Petrobras	Petrobras	PROPN	_	_	6	obj	_	_
+3	PETR4	PETR4	PROPN	_	_	2	appos	_	_
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	Lula	Lula	PROPN	_	_	6	nsubj	_	_
+6	capitalizou	capitalizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	em	em	ADP	_	_	8	case	_	_
+8	2010	2010	NUM	_	NumType=Card	6	obl	_	_
+9	a	a	ADP	_	_	10	case	_	_
+10	R$	R$	SYM	_	_	6	obl	_	_
+11	26,30	26,30	NUM	_	NumType=Card	10	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	_
+13	Últimos	último	ADJ	_	Gender=Masc|Number=Plur	15	amod	_	_
+14	6	6	NUM	_	NumType=Card	15	nummod	_	_
+15	meses	mês	NOUN	_	Gender=Masc|Number=Plur	6	parataxis	_	SpaceAfter=No
+16	...	...	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	Março	março	NOUN	_	Gender=Masc|Number=Sing	6	parataxis	_	_
+18-19	na	_	_	_	_	_	_	_	_
+18	em	em	ADP	_	_	20	case	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	bacia	bacia	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	_
+21-22	das	_	_	_	_	_	_	_	_
+21	de	de	ADP	_	_	23	case	_	_
+22	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	_
+23	almas	alma	NOUN	_	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
+24	!	!	PUNCT	_	_	17	punct	_	_
+25	http://t.co/l00d2g2AtO	http://t.co/l00d2g2AtO	SYM	_	_	6	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_461190468504936448l
+# text = RT @imcharliedrew: As únicas lol http://t.co/uojwAOHAYW
+1	RT	RT	X	_	_	5	parataxis	_	_
+2	@imcharliedrew	@imcharliedrew	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	As	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	únicas	único	NOUN	_	Gender=Fem|Number=Plur	0	root	_	_
+6	lol	lol	X	_	Foreign=Yes	5	discourse	_	_
+7	http://t.co/uojwAOHAYW	http://t.co/uojwAOHAYW	SYM	_	_	5	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_441244662418796544l
+# text = Ainda é cedo mas.. #VALE5 28,50 again #RENT3 apanhando quase 2% (Será?) #BRKM5 segue apanhando acima do ibov #BRSR6 queda em linha com setor
+1	Ainda	ainda	ADV	_	_	3	advmod	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	cedo	cedo	ADV	_	_	0	root	_	_
+4	mas	mas	CCONJ	_	_	6	cc	_	SpaceAfter=No
+5	..	..	PUNCT	_	_	6	punct	_	_
+6	#VALE5	#VALE5	PROPN	_	_	3	conj	_	_
+7	28,50	28,50	NUM	_	NumType=Card	6	nmod	_	_
+8	again	again	ADV	_	_	6	advmod	_	_
+9	#RENT3	#RENT3	PROPN	_	_	6	conj	_	_
+10	apanhando	apanhar	VERB	_	VerbForm=Ger	9	acl	_	_
+11	quase	quase	ADV	_	_	12	advmod	_	_
+12	2	2	NUM	_	NumType=Card	13	nummod	_	SpaceAfter=No
+13	%	%	SYM	_	_	10	obj	_	_
+14	(	(	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	parataxis	_	SpaceAfter=No
+16	?	?	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	15	punct	_	_
+18	#BRKM5	#BRKM5	PROPN	_	_	19	nsubj	_	_
+19	segue	seguir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+20	apanhando	apanhar	VERB	_	VerbForm=Ger	19	advcl	_	_
+21	acima	acima	ADV	_	_	20	advmod	_	_
+22-23	do	_	_	_	_	_	_	_	_
+22	de	de	ADP	_	_	24	case	_	_
+23	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ibov	ibov	PROPN	_	_	21	obl	_	_
+25	#BRSR6	#BRSR6	PROPN	_	_	26	nmod	_	_
+26	queda	queda	NOUN	_	Gender=Fem|Number=Sing	6	conj	_	_
+27	em	em	ADP	_	_	28	case	_	_
+28	linha	linha	NOUN	_	Gender=Fem|Number=Sing	26	nmod	_	_
+29	com	com	ADP	_	_	30	case	_	_
+30	setor	setor	NOUN	_	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_462203134283378688l
+# text = $ELET3 - Eletrobras (elet-n1) - Arquivamento Do Formulario 20-f Na Sec http://t.co/CcQEtx6yDZ
+1	$ELET3	$ELET3	PROPN	_	_	8	nmod	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	Eletrobras	Eletrobras	PROPN	_	_	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	elet-n1	elet-n1	PROPN	_	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	-	-	PUNCT	_	_	1	punct	_	_
+8	Arquivamento	arquivamento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9-10	Do	_	_	_	_	_	_	_	_
+9	De	de	ADP	_	_	11	case	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Formulario	formulário	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	8	nmod	_	CorrectForm=Formulário
+12	20-f	20-f	PROPN	_	_	11	flat:name	_	_
+13-14	Na	_	_	_	_	_	_	_	_
+13	Em	em	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Sec	Sec	PROPN	_	_	8	nmod	_	_
+16	http://t.co/CcQEtx6yDZ	http://t.co/CcQEtx6yDZ	SYM	_	_	8	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_451363380805525505l
+# text = $ELET3 - Eletrobras (elet-n1) - Material De Apresentacao - Reapresentacao http://t.co/c6lxTa9jHP
+1	$ELET3	$ELET3	PROPN	_	_	8	nmod	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	Eletrobras	Eletrobras	PROPN	_	_	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	elet-n1	elet-n1	PROPN	_	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	-	-	PUNCT	_	_	1	punct	_	_
+8	Material	material	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+9	De	de	ADP	_	_	10	case	_	_
+10	Apresentacao	apresentação	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	8	nmod	_	CorrectForm=Apresentação
+11	-	-	PUNCT	_	_	12	punct	_	_
+12	Reapresentacao	reapresentação	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	10	conj	_	CorrectForm=Reapresentação
+13	http://t.co/c6lxTa9jHP	http://t.co/c6lxTa9jHP	SYM	_	_	8	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_461560022854828032l
+# text = Ativo c/ vol Financeiro Superior à sua MM21-14h: ABEV3 ALUP11 CGAS5 CYRE3 EQTL3 ESTC3 IDIV LREN3 MAGG3 OIBR3 OIBR4 PFRM3 SANB11 SHOW3 TCSA3
+1	Ativo	ativo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	c/	com	ADP	_	_	3	case	_	FullForm=com
+3	vol	volume	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	1	nmod	_	FullForm=volume
+4	Financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	Superior	superior	ADJ	_	Number=Sing	3	amod	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	9	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	MM21	MM21	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	14h	14h	NOUN	_	Gender=Fem|Number=Plur	1	parataxis	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	ABEV3	ABEV3	PROPN	_	_	1	appos	_	_
+14	ALUP11	ALUP11	PROPN	_	_	13	conj	_	_
+15	CGAS5	CGAS5	PROPN	_	_	13	conj	_	_
+16	CYRE3	CYRE3	PROPN	_	_	13	conj	_	_
+17	EQTL3	EQTL3	PROPN	_	_	13	conj	_	_
+18	ESTC3	ESTC3	PROPN	_	_	13	conj	_	_
+19	IDIV	IDIV	PROPN	_	_	13	conj	_	_
+20	LREN3	LREN3	PROPN	_	_	13	conj	_	_
+21	MAGG3	MAGG3	PROPN	_	_	13	conj	_	_
+22	OIBR3	OIBR3	PROPN	_	_	13	conj	_	_
+23	OIBR4	OIBR4	PROPN	_	_	13	conj	_	_
+24	PFRM3	PFRM3	PROPN	_	_	13	conj	_	_
+25	SANB11	SANB11	PROPN	_	_	13	conj	_	_
+26	SHOW3	SHOW3	PROPN	_	_	13	conj	_	_
+27	TCSA3	TCSA3	PROPN	_	_	13	conj	_	SpaceAfter=No
+
+# sent_id = dante_01_447193082044633089l
+# text = Car*, comé q'essa mulher ganhou p Presidente da República? '@AryAntiPT: #DilmaNacadeia #PETR4 demite diretor envolvid http://t.co/hgG5EYSd1f
+1	Car*	car*	INTJ	_	_	9	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	com	como	ADP	_	_	9	mark	_	FullForm=como|SpaceAfter=No
+4	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	discourse	_	_
+5	q	que	SCONJ	_	_	9	discourse	_	FullForm=que|SpaceAfter=No
+6	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+7	essa	esse	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	mulher	mulher	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	_
+9	ganhou	ganhar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+10	p	para	ADP	_	_	11	case	_	FullForm=para
+11	Presidente	presidente	NOUN	_	Number=Sing	9	obl	_	_
+12-13	da	_	_	_	_	_	_	_	_
+12	de	de	ADP	_	_	14	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	República	república	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	_	_	9	punct	_	_
+16	'	'	PUNCT	_	_	9	punct	_	SpaceAfter=No
+17	@AryAntiPT	@AryAntiPT	PROPN	_	_	21	vocative	_	SpaceAfter=No
+18	:	:	PUNCT	_	_	17	punct	_	_
+19	#DilmaNacadeia	#DilmaNacadeia	X	_	_	21	parataxis	_	_
+20	#PETR4	#PETR4	PROPN	_	_	21	nsubj	_	_
+21	demite	demitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+22	diretor	diretor	NOUN	_	Gender=Masc|Number=Sing	21	obj	_	_
+23	envolvid	envolvido	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	FullForm=envolvido|Trunc=Yes
+24	http://t.co/hgG5EYSd1f	http://t.co/hgG5EYSd1f	SYM	_	_	9	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_444123477474566145l
+# text = Vôo de galinha da BOVESPA durou pouco. Já tá no vermelho. BBAS3 reagindo.
+1	Vôo	vôo	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	de	de	ADP	_	_	3	case	_	_
+3	galinha	galinha	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	BOVESPA	BOVESPA	PROPN	_	_	1	nmod	_	_
+7	durou	durar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+8	pouco	pouco	ADV	_	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	7	punct	_	_
+10	Já	já	ADV	_	_	14	advmod	_	_
+11	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12-13	no	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	14	case	_	_
+13	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	vermelho	vermelho	NOUN	_	Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+16	BBAS3	BBAS3	PROPN	_	_	17	nsubj	_	_
+17	reagindo	reagir	VERB	_	VerbForm=Ger	7	parataxis	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_442037337678028800l
+# text = VIVT4 esperando volume, perdi o bonde... #caraio http://t.co/0OWqzCs9dS
+1	VIVT4	VIVT4	PROPN	_	_	2	parataxis	_	_
+2	esperando	esperar	VERB	_	VerbForm=Ger	0	root	_	_
+3	volume	volume	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	5	punct	_	_
+5	perdi	perder	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bonde	bonde	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	...	...	PUNCT	_	_	2	punct	_	_
+9	#caraio	#caraio	INTJ	_	_	2	discourse	_	CorrectForm=#caralho
+10	http://t.co/0OWqzCs9dS	http://t.co/0OWqzCs9dS	SYM	_	_	2	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_450992982595215361l
+# text = as ações do Itau ultrapassaram às da #PETR4 na 1ª prévia do índice ... o.O *sinal dos tempos ...*
+1	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	6	nsubj	_	_
+3-4	do	_	_	_	_	_	_	_	_
+3	de	de	ADP	_	_	5	case	_	_
+4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Itau	Itau	PROPN	_	_	2	nmod	_	CorrectForm=Itaú
+6	ultrapassaram	ultrapassar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7-8	às	_	_	_	_	_	_	_	_
+7	a	a	ADP	_	_	8	case	_	_
+8	as	o	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	6	obl	_	_
+9-10	da	_	_	_	_	_	_	_	_
+9	de	de	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	#PETR4	#PETR4	PROPN	_	_	8	nmod	_	_
+12-13	na	_	_	_	_	_	_	_	_
+12	em	em	ADP	_	_	15	case	_	_
+13	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	1ª	1ª	ADJ	_	Gender=Fem|NumType=Ord	15	amod	_	_
+15	prévia	prévia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	_
+16-17	do	_	_	_	_	_	_	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	índice	índice	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	_
+19	...	...	PUNCT	_	_	6	punct	_	_
+20	o.O	o.O	SYM	_	_	6	discourse	_	_
+21	*	*	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	sinal	sinal	NOUN	_	Gender=Masc|Number=Sing	6	parataxis	_	_
+23-24	dos	_	_	_	_	_	_	_	_
+23	de	de	ADP	_	_	25	case	_	_
+24	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	tempos	tempo	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	_
+26	...	...	PUNCT	_	_	22	punct	_	SpaceAfter=No
+27	*	*	PUNCT	_	_	22	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_446769021795315712l
+# text = Estatais têm ganhos de mais de 9% na semana, Sabesp despenca 7,5%, veja destaques: Rossi sob... http://t.co/5HVWYBG7ui #infomoney #vale5
+1	Estatais	estatal	NOUN	_	Gender=Fem|Number=Plur	2	nsubj	_	_
+2	têm	ter	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ganhos	ganho	NOUN	_	Gender=Masc|Number=Plur	2	obj	_	_
+4	de	de	ADP	_	_	8	case	_	_
+5	mais	mais	ADV	_	_	7	advmod	_	_
+6	de	de	ADP	_	_	5	fixed	_	_
+7	9	9	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
+8	%	%	SYM	_	_	3	nmod	_	_
+9-10	na	_	_	_	_	_	_	_	_
+9	em	em	ADP	_	_	11	case	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	semana	semana	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	14	punct	_	_
+13	Sabesp	Sabesp	PROPN	_	_	14	nsubj	_	_
+14	despenca	despencar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+15	7,5	7,5	NUM	_	NumType=Card	16	nummod	_	SpaceAfter=No
+16	%	%	SYM	_	_	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	18	punct	_	_
+18	veja	ver	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+19	destaques	destaque	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+20	:	:	PUNCT	_	_	22	punct	_	_
+21	Rossi	Rossi	PROPN	_	_	22	nsubj	_	_
+22	sob	subir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	parataxis	_	FullForm=sobe|Trunc=Yes|SpaceAfter=No
+23	...	...	PUNCT	_	_	22	punct	_	_
+24	http://t.co/5HVWYBG7ui	http://t.co/5HVWYBG7ui	SYM	_	_	2	parataxis	_	_
+25	#infomoney	#infomoney	X	_	_	2	parataxis	_	_
+26	#vale5	#vale5	X	_	_	2	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_449599855019569152l
+# text = Olha o efeito Dilma na economia. #PETR4 http://t.co/TMrcQOVCHF
+1	Olha	olhar	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	efeito	efeito	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	_
+4	Dilma	Dilma	PROPN	_	_	3	nmod	_	_
+5-6	na	_	_	_	_	_	_	_	_
+5	em	em	ADP	_	_	7	case	_	_
+6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	economia	economia	NOUN	_	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	#PETR4	#PETR4	X	_	_	1	parataxis	_	_
+10	http://t.co/TMrcQOVCHF	http://t.co/TMrcQOVCHF	SYM	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_461560069805842432l
+# text = Ativo c/ vol Financeiro Superior à sua MM21-14h:  TOTS3 VALE3
+1	Ativo	ativo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	c/	com	ADP	_	_	3	case	_	FullForm=com
+3	vol	volume	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	1	nmod	_	FullForm=volume
+4	Financeiro	financeiro	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	_
+5	Superior	superior	ADJ	_	Number=Sing	3	amod	_	_
+6-7	à	_	_	_	_	_	_	_	_
+6	a	a	ADP	_	_	9	case	_	_
+7	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	sua	seu	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	_
+9	MM21	MM21	NOUN	_	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	14h	14h	NOUN	_	Gender=Fem|Number=Plur	1	parataxis	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	TOTS3	TOTS3	PROPN	_	_	1	appos	_	_
+14	VALE3	VALE3	PROPN	_	_	13	conj	_	SpaceAfter=No
+
+# sent_id = dante_01_443023444427694080l
+# text = é petr4 não tem quem salve.
+1	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	discourse	_	_
+2	petr4	petr4	PROPN	_	_	4	parataxis	_	_
+3	não	não	ADV	_	_	4	advmod	_	_
+4	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quem	quem	PRON	_	PronType=Rel	4	obj	_	_
+6	salve	salvar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_445626237487427584l
+# text = Uma coisa interessante que acabei de observar. Tanto PETR3 quando PETR4 tem 107M de ações alugadas. Será isso coincidencia? @dfittarelli
+1	Uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	coisa	coisa	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	interessante	interessante	ADJ	_	Number=Sing	2	amod	_	_
+4	que	que	PRON	_	PronType=Rel	5	obj	_	_
+5	acabei	acabar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+6	de	de	ADP	_	_	7	mark	_	_
+7	observar	observar	VERB	_	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	2	punct	_	_
+9	Tanto	tanto	ADV	_	_	10	advmod	_	_
+10	PETR3	PETR3	PROPN	_	_	13	nsubj	_	_
+11	quando	quanto	ADV	_	Typo=Yes	12	advmod	_	CorrectForm=quanto
+12	PETR4	PETR4	PROPN	_	_	10	conj	_	_
+13	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+14	107M	107M	NOUN	_	Gender=Masc|Number=Plur	13	obj	_	_
+15	de	de	ADP	_	_	16	case	_	_
+16	ações	ação	NOUN	_	Gender=Fem|Number=Plur	14	nmod	_	_
+17	alugadas	alugar	VERB	_	Gender=Fem|Number=Plur|VerbForm=Part	16	acl	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	13	punct	_	_
+19	Será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	21	cop	_	_
+20	isso	isso	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+21	coincidencia	coincidência	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	2	parataxis	_	CorrectForm=coincidência|SpaceAfter=No
+22	?	?	PUNCT	_	_	21	punct	_	_
+23	@dfittarelli	@dfittarelli	PROPN	_	_	21	vocative	_	SpaceAfter=No
+
+# sent_id = dante_01_451718191560294400l
+# text = @Live_Trade assim que vc tiver um tempo comenta alll3. valew
+1	@Live_Trade	@Live_Trade	PROPN	_	_	8	vocative	_	_
+2	assim	assim	ADV	_	_	5	mark	_	_
+3	que	que	SCONJ	_	_	2	fixed	_	_
+4	vc	você	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	FullForm=você
+5	tiver	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	8	advcl	_	_
+6	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	_
+8	comenta	comentar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	alll3	alll3	PROPN	_	_	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	8	punct	_	_
+11	valew	valeu	INTJ	_	_	8	discourse	_	CorrectForm=valeu|SpaceAfter=No
+
+# sent_id = dante_01_448825268309065728l
+# text = RT @cafecomtorradas: Se o Relatório sumiu ou se encontra adulterado, estaremos claramente diante de uma ação criminosa e mafiosa, corroendo…
+1	RT	RT	X	_	_	15	parataxis	_	_
+2	@cafecomtorradas	@cafecomtorradas	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	Se	se	SCONJ	_	_	7	mark	_	_
+5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Relatório	relatório	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+7	sumiu	sumir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	advcl	_	_
+8	ou	ou	CCONJ	_	_	10	cc	_	_
+9	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	10	expl	_	_
+10	encontra	encontrar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	adulterado	adulterado	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	estaremos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	15	cop	_	_
+14	claramente	claramente	ADV	_	_	15	advmod	_	_
+15	diante	diante	ADV	_	_	0	root	_	_
+16	de	de	ADP	_	_	18	case	_	_
+17	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	ação	ação	NOUN	_	Gender=Fem|Number=Sing	15	obl	_	_
+19	criminosa	criminoso	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	_
+20	e	e	CCONJ	_	_	21	cc	_	_
+21	mafiosa	mafioso	ADJ	_	Gender=Fem|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	corroendo	corroer	VERB	_	VerbForm=Ger	15	advcl	_	SpaceAfter=No
+24	…	…	PUNCT	_	_	15	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_468930214962429954l
+# text = A gente estamos falando sério !! Amanhã, a gestora vai vender JBSS3 !! Vamos comandar a derrubada, assim como fizemos com PETR4 !!
+1	A	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	_	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|Typo=Yes|VerbForm=Fin	4	aux	_	CorrectForm=está
+4	falando	falar	VERB	_	VerbForm=Ger	0	root	_	_
+5	sério	sério	ADV	_	_	4	advmod	_	_
+6	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
+7	!	!	PUNCT	_	_	4	punct	_	_
+8	Amanhã	amanhã	ADV	_	_	13	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	gestora	gestor	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	_
+12	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	vender	vender	VERB	_	VerbForm=Inf	4	parataxis	_	_
+14	JBSS3	JBSS3	PROPN	_	_	13	obj	_	_
+15	!	!	PUNCT	_	_	13	punct	_	SpaceAfter=No
+16	!	!	PUNCT	_	_	13	punct	_	_
+17	Vamos	ir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	comandar	comandar	VERB	_	VerbForm=Inf	4	parataxis	_	_
+19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	derrubada	derrubada	NOUN	_	Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	24	punct	_	_
+22	assim	assim	ADV	_	_	24	mark	_	_
+23	como	como	ADP	_	_	22	fixed	_	_
+24	fizemos	fazer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	18	advcl	_	_
+25	com	com	ADP	_	_	26	case	_	_
+26	PETR4	PETR4	PROPN	_	_	24	obl	_	_
+27	!	!	PUNCT	_	_	18	punct	_	SpaceAfter=No
+28	!	!	PUNCT	_	_	18	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_446282720717856768l
+# text = Quem tiver interesse em doar PETR3 ou 4 em aluguel, procurar @brunogmusa. Para PF compensa muito. Paga boa taxa! Motivo JSCP @ferrisss
+1	Quem	quem	PRON	_	PronType=Ind	12	nsubj	_	_
+2	tiver	ter	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	acl:relcl	_	_
+3	interesse	interesse	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
+4	em	em	ADP	_	_	5	mark	_	_
+5	doar	doar	VERB	_	VerbForm=Inf	3	acl	_	_
+6	PETR3	PETR3	PROPN	_	_	5	obj	_	_
+7	ou	ou	CCONJ	_	_	8	cc	_	_
+8	4	4	NUM	_	NumType=Card	6	conj	_	_
+9	em	em	ADP	_	_	10	case	_	_
+10	aluguel	aluguel	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	1	punct	_	_
+12	procurar	procurar	VERB	_	VerbForm=Inf	0	root	_	_
+13	@brunogmusa	@brunogmusa	PROPN	_	_	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	12	punct	_	_
+15	Para	para	ADP	_	_	16	case	_	_
+16	PF	PF	NOUN	_	Gender=Fem|Number=Sing	17	obl	_	_
+17	compensa	compensar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+18	muito	muito	ADV	_	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	17	punct	_	_
+20	Paga	pagar	VERB	_	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	12	parataxis	_	_
+21	boa	bom	ADJ	_	Gender=Fem|Number=Sing	22	amod	_	_
+22	taxa	taxa	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+23	!	!	PUNCT	_	_	20	punct	_	_
+24	Motivo	motivo	NOUN	_	Gender=Masc|Number=Sing	12	parataxis	_	_
+25	JSCP	JSCP	NOUN	_	Gender=Masc|Number=Sing	24	nmod	_	_
+26	@ferrisss	@ferrisss	PROPN	_	_	24	vocative	_	SpaceAfter=No
+
+# sent_id = dante_01_449188293310435328l
+# text = Não entendo muito de ações, mas tem um padrão na ação do banco do Brasil #BBAS3 nos últ 5 anos. Em Abr ela valoriza e em Out despenca.
+1	Não	não	ADV	_	_	2	advmod	_	_
+2	entendo	entender	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	muito	muito	ADV	_	_	2	advmod	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	ações	ação	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	8	punct	_	_
+7	mas	mas	CCONJ	_	_	8	cc	_	_
+8	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	_
+11-12	na	_	_	_	_	_	_	_	_
+11	em	em	ADP	_	_	13	case	_	_
+12	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	ação	ação	NOUN	_	Gender=Fem|Number=Sing	8	obl	_	_
+14-15	do	_	_	_	_	_	_	_	_
+14	de	de	ADP	_	_	16	case	_	_
+15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	banco	banco	PROPN	_	_	13	nmod	_	CorrectForm=Banco
+17-18	do	_	_	_	_	_	_	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Brasil	Brasil	PROPN	_	_	16	nmod	_	_
+20	#BBAS3	#BBAS3	PROPN	_	_	13	appos	_	_
+21-22	nos	_	_	_	_	_	_	_	_
+21	em	em	ADP	_	_	25	case	_	_
+22	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+23	últ	último	ADJ	_	Abbr=Yes|Gender=Masc|Number=Plur	25	amod	_	FullForm=últimos
+24	5	5	NUM	_	NumType=Card	25	nummod	_	_
+25	anos	ano	NOUN	_	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	2	punct	_	_
+27	Em	em	ADP	_	_	28	case	_	_
+28	Abr	abril	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	30	obl	_	FullForm=abril
+29	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	_
+30	valoriza	valorizar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+31	e	e	CCONJ	_	_	34	cc	_	_
+32	em	em	ADP	_	_	33	case	_	_
+33	Out	outubro	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	34	obl	_	FullForm=outubro
+34	despenca	despencar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	30	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_446275451179528194l
+# text = de brinde eleitoral cada brasileiro vai ganhar 01 dentadura e 01 papelzinho da PETR4
+1	de	de	ADP	_	_	2	case	_	_
+2	brinde	brinde	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	_
+3	eleitoral	eleitoral	ADJ	_	Number=Sing	2	amod	_	_
+4	cada	cada	DET	_	Number=Sing|PronType=Ind	5	det	_	_
+5	brasileiro	brasileiro	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	vai	ir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	ganhar	ganhar	VERB	_	VerbForm=Inf	0	root	_	_
+8	01	01	NUM	_	NumType=Card	9	nummod	_	_
+9	dentadura	dentadura	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	_	_	12	cc	_	_
+11	01	01	NUM	_	NumType=Card	12	nummod	_	_
+12	papelzinho	papel	NOUN	_	Gender=Masc|Number=Sing	9	conj	_	_
+13-14	da	_	_	_	_	_	_	_	_
+13	de	de	ADP	_	_	15	case	_	_
+14	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	PETR4	PETR4	PROPN	_	_	12	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_444474400981938176l
+# text = @Smarttrade10 @ferrisss MRVE3 perdendo 7.75 no fechamento hoje fica complicado. Se nao, pode abrir um trade pra curto prazo.
+1	@Smarttrade10	@Smarttrade10	PROPN	_	_	10	vocative	_	_
+2	@ferrisss	@ferrisss	PROPN	_	_	10	vocative	_	_
+3	MRVE3	MRVE3	PROPN	_	_	4	nsubj	_	_
+4	perdendo	perder	VERB	_	VerbForm=Ger	10	advcl	_	_
+5	7.75	7.75	NUM	_	NumType=Card	4	obj	_	_
+6-7	no	_	_	_	_	_	_	_	_
+6	em	em	ADP	_	_	8	case	_	_
+7	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	fechamento	fechamento	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+9	hoje	hoje	ADV	_	_	10	advmod	_	_
+10	fica	ficar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	complicado	complicado	ADJ	_	Gender=Masc|Number=Sing	10	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	10	punct	_	_
+13	Se	se	SCONJ	_	_	14	mark	_	_
+14	nao	não	ADV	_	Typo=Yes	16	advcl	_	CorrectForm=não|SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+17	abrir	abrir	VERB	_	VerbForm=Inf	16	xcomp	_	_
+18	um	um	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	trade	trade	NOUN	_	Gender=Masc|Number=Sing	17	obj	_	_
+20	pra	para	ADP	_	_	22	case	_	FullForm=para
+21	curto	curto	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	_
+22	prazo	prazo	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	10	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_458623940072841216l
+# text = Rastreamento ações-Gráfico diário-12h. Analise se romper:  IBOV 52344,52 ITUB4 35,77 LIGT3 19,22   MULT3 50,45
+1	Rastreamento	rastreamento	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	list	_	_
+5	diário	diário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	12h	12h	NOUN	_	Gender=Fem|Number=Plur	1	list	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	Analise	analisar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	se	se	SCONJ	_	_	11	mark	_	_
+11	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	IBOV	IBOV	PROPN	_	_	11	obj	_	_
+14	52344,52	52344,52	NUM	_	NumType=Card	13	nmod	_	_
+15	ITUB4	ITUB4	PROPN	_	_	13	conj	_	_
+16	35,77	35,77	NUM	_	NumType=Card	15	nmod	_	_
+17	LIGT3	LIGT3	PROPN	_	_	13	conj	_	_
+18	19,22	19,22	NUM	_	NumType=Card	17	nmod	_	_
+19	MULT3	MULT3	PROPN	_	_	13	conj	_	_
+20	50,45	50,45	NUM	_	NumType=Card	19	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_448514697797840896l
+# text = LONG SHORT PETR4/PETR3 ... lindo !!! http://t.co/Sve4uHo8B7
+1	LONG	LONG	PROPN	_	_	0	root	_	_
+2	SHORT	SHORT	PROPN	_	_	1	flat:name	_	_
+3	PETR4	PETR4	PROPN	_	_	1	nmod	_	SpaceAfter=No
+4	/	/	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	PETR3	PETR3	PROPN	_	_	3	conj	_	_
+6	...	...	PUNCT	_	_	7	punct	_	_
+7	lindo	lindo	ADJ	_	Gender=Masc|Number=Sing	1	parataxis	_	_
+8	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	1	punct	_	SpaceAfter=No
+10	!	!	PUNCT	_	_	1	punct	_	_
+11	http://t.co/Sve4uHo8B7	http://t.co/Sve4uHo8B7	SYM	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_448811665736630272l
+# text = @Live_Trade é ... R$14,4x nem é região importante na #PETR4 ... ótima observação ! =)
+1	@Live_Trade	@Live_Trade	PROPN	_	_	4	vocative	_	_
+2	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	...	...	PUNCT	_	_	4	punct	_	_
+4	R$	R$	SYM	_	_	0	root	_	SpaceAfter=No
+5	14,4x	14,4x	NUM	_	NumType=Card	4	nummod	_	_
+6	nem	nem	ADV	_	_	8	advmod	_	_
+7	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	região	região	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	_
+9	importante	importante	ADJ	_	Number=Sing	8	amod	_	_
+10-11	na	_	_	_	_	_	_	_	_
+10	em	em	ADP	_	_	12	case	_	_
+11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	#PETR4	#PETR4	PROPN	_	_	8	nmod	_	_
+13	...	...	PUNCT	_	_	15	punct	_	_
+14	ótima	ótimo	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	observação	observação	NOUN	_	Gender=Fem|Number=Sing	4	parataxis	_	_
+16	!	!	PUNCT	_	_	4	punct	_	_
+17	=)	=)	SYM	_	_	4	discourse	_	SpaceAfter=No
+
+# sent_id = dante_01_468838449030893568l
+# text = #PETR4 indicando R$16?
+1	#PETR4	#PETR4	PROPN	_	_	2	nsubj	_	_
+2	indicando	indicar	VERB	_	VerbForm=Ger	0	root	_	_
+3	R$	R$	SYM	_	_	2	obl	_	SpaceAfter=No
+4	16	16	NUM	_	NumType=Card	3	nummod	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	2	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_451716260364296192l
+# text = PETR4 ex-juros. Para quem não usa o gráfico ajustado tá ai uma boa queda...rsrs
+1	PETR4	PETR4	PROPN	_	_	0	root	_	_
+2	ex-juros	ex-juro	NOUN	_	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+4	Para	para	ADP	_	_	5	case	_	_
+5	quem	quem	PRON	_	PronType=Ind	12	obl	_	_
+6	não	não	ADV	_	_	7	advmod	_	_
+7	usa	usar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	_
+10	ajustado	ajustado	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	_
+11	tá	estar	AUX	_	Abbr=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	FullForm=está
+12	ai	aí	ADV	_	Typo=Yes	1	parataxis	_	CorrectForm=aí
+13	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	boa	bom	ADJ	_	Gender=Fem|Number=Sing	15	amod	_	_
+15	queda	queda	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
+16	...	...	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	rsrs	rsrs	X	_	_	1	discourse	_	SpaceAfter=No
+
+# sent_id = dante_01_458776499764875265l
+# text = Inspirado hoje nas Análise Gráficas. Atenção especial em HOOT4 e RSID3. #ProbabiliadeDeAlta #VejoUmBomFuturoNessesPapeis #MIR
+1	Inspirado	inspirar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
+2	hoje	hoje	ADV	_	_	1	advmod	_	_
+3-4	nas	_	_	_	_	_	_	_	_
+3	em	em	ADP	_	_	5	case	_	_
+4	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Análise	análise	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	_
+6	Gráficas	gráfico	ADJ	_	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	1	punct	_	_
+8	Atenção	atenção	NOUN	_	Gender=Fem|Number=Sing	1	parataxis	_	_
+9	especial	especial	ADJ	_	Number=Sing	8	amod	_	_
+10	em	em	ADP	_	_	11	case	_	_
+11	HOOT4	HOOT4	PROPN	_	_	8	nmod	_	_
+12	e	e	CCONJ	_	_	13	cc	_	_
+13	RSID3	RSID3	PROPN	_	_	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	8	punct	_	_
+15	#ProbabiliadeDeAlta	#ProbabiliadeDeAlta	X	_	_	1	parataxis	_	_
+16	#VejoUmBomFuturoNessesPapeis	#VejoUmBomFuturoNessesPapeis	X	_	_	1	parataxis	_	_
+17	#MIR	#MIR	X	_	_	1	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_450737073709125632l
+# text = $ELET3 - Eletrobras (elet-n1) - Demonstracoes Financeiras De 31/12/2013 - Reapresentacao http://t.co/pjuOmjfttt
+1	$ELET3	$ELET3	PROPN	_	_	8	nmod	_	_
+2	-	-	PUNCT	_	_	3	punct	_	_
+3	Eletrobras	Eletrobras	PROPN	_	_	1	nmod	_	_
+4	(	(	PUNCT	_	_	5	punct	_	SpaceAfter=No
+5	elet-n1	elet-n1	PROPN	_	_	1	appos	_	SpaceAfter=No
+6	)	)	PUNCT	_	_	5	punct	_	_
+7	-	-	PUNCT	_	_	1	punct	_	_
+8	Demonstracoes	demonstração	NOUN	_	Gender=Fem|Number=Plur|Typo=Yes	0	root	_	CorrectForm=Demonstrações
+9	Financeiras	financeiro	ADJ	_	Gender=Fem|Number=Plur	8	amod	_	_
+10	De	de	ADP	_	_	11	case	_	_
+11	31/12/2013	31/12/2013	NUM	_	NumType=Card	8	nmod	_	_
+12	-	-	PUNCT	_	_	13	punct	_	_
+13	Reapresentacao	representação	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	8	parataxis	_	CorrectForm=Reapresentação
+14	http://t.co/pjuOmjfttt	http://t.co/pjuOmjfttt	SYM	_	_	8	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_444569158895009793l
+# text = @TeixeiraAires @BlackWizardX está bom para entrar na petr4...somente acho...
+1	@TeixeiraAires	@TeixeiraAires	PROPN	_	_	4	vocative	_	_
+2	@BlackWizardX	@BlackWizardX	PROPN	_	_	4	vocative	_	_
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bom	bom	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+5	para	para	ADP	_	_	6	mark	_	_
+6	entrar	entrar	VERB	_	VerbForm=Inf	4	advcl	_	_
+7-8	na	_	_	_	_	_	_	_	_
+7	em	em	ADP	_	_	9	case	_	_
+8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	petr4	petr4	PROPN	_	_	6	obl	_	SpaceAfter=No
+10	...	...	PUNCT	_	_	12	punct	_	SpaceAfter=No
+11	somente	somente	ADV	_	_	12	advmod	_	_
+12	acho	achar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+13	...	...	PUNCT	_	_	4	punct	_	SpaceAfter=No
+
+# sent_id = dante_01_446651604310437888l
+# text = Rastreamento ações-Gráfico diário-11h. Analise se romper:  BBDC3 29,87 BBDC4 28,00 CTIP3 25,55 MULT3 46,44
+1	Rastreamento	rastreamento	NOUN	_	Gender=Masc|Number=Sing	9	parataxis	_	_
+2	ações	ação	NOUN	_	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+3	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+4	Gráfico	gráfico	NOUN	_	Gender=Masc|Number=Sing	1	list	_	_
+5	diário	diário	ADJ	_	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	11h	11h	NOUN	_	Gender=Fem|Number=Plur	1	list	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	1	punct	_	_
+9	Analise	analisar	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	se	se	SCONJ	_	_	11	mark	_	_
+11	romper	romper	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	13	punct	_	_
+13	BBDC3	BBDC3	PROPN	_	_	11	obj	_	_
+14	29,87	29,87	NUM	_	NumType=Card	13	nmod	_	_
+15	BBDC4	BBDC4	PROPN	_	_	13	conj	_	_
+16	28,00	28,00	NUM	_	NumType=Card	15	nmod	_	_
+17	CTIP3	CTIP3	PROPN	_	_	13	conj	_	_
+18	25,55	25,55	NUM	_	NumType=Card	17	nmod	_	_
+19	MULT3	MULT3	PROPN	_	_	13	conj	_	_
+20	46,44	46,44	NUM	_	NumType=Card	19	nmod	_	SpaceAfter=No
+
+# sent_id = dante_01_443479045179600896l
+# text = Wintrade recomenda uma nova ação para março, saiba qual: A nova escolhida pelos analistas é ... http://t.co/fipOgc8hF4 #infomoney #vale5
+1	Wintrade	Wintrade	PROPN	_	_	2	nsubj	_	_
+2	recomenda	recomendar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nova	novo	ADJ	_	Gender=Fem|Number=Sing	5	amod	_	_
+5	ação	ação	NOUN	_	Gender=Fem|Number=Sing	2	obj	_	_
+6	para	para	ADP	_	_	7	case	_	_
+7	março	março	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	9	punct	_	_
+9	saiba	saber	VERB	_	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+10	qual	qual	PRON	_	Number=Sing|PronType=Int	9	obj	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	18	punct	_	_
+12	A	o	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	18	nsubj	_	_
+13	nova	novo	ADJ	_	Gender=Fem|Number=Sing	12	amod	_	_
+14	escolhida	escolher	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	12	acl	_	_
+15-16	pelos	_	_	_	_	_	_	_	_
+15	por	por	ADP	_	_	17	case	_	_
+16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	analistas	analista	NOUN	_	Number=Plur	14	obl:agent	_	_
+18	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	parataxis	_	_
+19	...	...	PUNCT	_	_	2	punct	_	_
+20	http://t.co/fipOgc8hF4	http://t.co/fipOgc8hF4	SYM	_	_	2	parataxis	_	_
+21	#infomoney	#infomoney	X	_	_	2	parataxis	_	_
+22	#vale5	#vale5	X	_	_	2	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_466929579375222785l
+# text = Investidores repercutem CPI da Petrobras e resultados corporativos (CYRE3, CPLE6, GOLL4, MRVE3 e OIBR4) http://t.co/qD7lA6A83d
+1	Investidores	investidor	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	_
+2	repercutem	repercutir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	CPI	CPI	PROPN	_	_	2	obj	_	_
+4-5	da	_	_	_	_	_	_	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Petrobras	Petrobras	PROPN	_	_	3	nmod	_	_
+7	e	e	CCONJ	_	_	8	cc	_	_
+8	resultados	resultado	NOUN	_	Gender=Masc|Number=Plur	3	conj	_	_
+9	corporativos	corporativo	ADJ	_	Gender=Masc|Number=Plur	8	amod	_	_
+10	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
+11	CYRE3	CYRE3	PROPN	_	_	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	13	punct	_	_
+13	CPLE6	CPLE6	PROPN	_	_	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	15	punct	_	_
+15	GOLL4	GOLL4	PROPN	_	_	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	17	punct	_	_
+17	MRVE3	MRVE3	PROPN	_	_	11	conj	_	_
+18	e	e	CCONJ	_	_	19	cc	_	_
+19	OIBR4	OIBR4	PROPN	_	_	11	conj	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	11	punct	_	_
+21	http://t.co/qD7lA6A83d	http://t.co/qD7lA6A83d	SYM	_	_	2	parataxis	_	SpaceAfter=No
+
+# sent_id = dante_01_452114970592165888l
+# text = RT @dividendo_br: ELETROBRAS jscp|aprov 30/4/2014|ex 2/5/2014||pg n/d|ELET3 R$0,39921083663|ELET5 R$2,17825658673|ELET6 R$1,63369244005 htt…
+1	RT	RT	X	_	_	5	parataxis	_	_
+2	@dividendo_br	@dividendo_br	PROPN	_	_	1	nmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	1	punct	_	_
+4	ELETROBRAS	ELETROBRAS	PROPN	_	_	5	nmod	_	_
+5	jscp	jscp	NOUN	_	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	|	|	PUNCT	_	_	7	punct	_	SpaceAfter=No
+7	aprov	aprov	X	_	_	5	nmod	_	_
+8	30/4/2014	30/4/2014	NUM	_	NumType=Card	7	nmod	_	SpaceAfter=No
+9	|	|	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	ex	data-ex	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	7	conj	_	FullForm=data-ex
+11	2/5/2014	2/5/2014	NUM	_	NumType=Card	10	nmod	_	SpaceAfter=No
+12	|	|	PUNCT	_	_	14	punct	_	SpaceAfter=No
+13	|	|	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	pg	pagamento	NOUN	_	Abbr=Yes|Gender=Masc|Number=Sing	7	conj	_	FullForm=pagamento
+15	n/d	n/d	X	_	_	14	nmod	_	SpaceAfter=No
+16	|	|	PUNCT	_	_	18	punct	_	SpaceAfter=No
+17	ELET3	ELET3	PROPN	_	_	18	nmod	_	_
+18	R$	R$	SYM	_	_	5	appos	_	SpaceAfter=No
+19	0,39921083663	0,39921083663	NUM	_	NumType=Card	18	nummod	_	SpaceAfter=No
+20	|	|	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	ELET5	ELET5	PROPN	_	_	22	nmod	_	_
+22	R$	R$	SYM	_	_	18	conj	_	SpaceAfter=No
+23	2,17825658673	2,17825658673	NUM	_	NumType=Card	22	nummod	_	SpaceAfter=No
+24	|	|	PUNCT	_	_	26	punct	_	SpaceAfter=No
+25	ELET6	ELET6	PROPN	_	_	26	nmod	_	_
+26	R$	R$	SYM	_	_	18	conj	_	SpaceAfter=No
+27	1,63369244005	1,63369244005	NUM	_	NumType=Card	26	nummod	_	_
+28	htt	htt	SYM	_	_	5	parataxis	_	Trunc=Yes|SpaceAfter=No
+29	…	…	PUNCT	_	_	5	punct	_	SpaceAfter=No
+

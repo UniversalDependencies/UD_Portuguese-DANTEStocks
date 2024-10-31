@@ -16,9 +16,9 @@ This work was carried out at the Center for Artificial Intelligence of the Unive
 # Corpus Splitting
 
 The treebank has been randomly split as follows:
-- **Train:** 3234 tweets (64792 tokens) (80%)
-- **Dev:** 404 tweets (8036 tokens) (10%)
-- **Test:** 404 tweets (8169 tokens) (10%)
+- **Train:** 3040 tweets (60932 tokens) (75.2%)
+- **Dev:** 501 tweets (10004 tokens) (12.4%)
+- **Test:** 501 tweets (10061 tokens) (12.4%)
 
 # References
 
