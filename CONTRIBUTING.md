@@ -6,4 +6,4 @@ closed. Instead make them against the dev branch.
 For full details on the branch policy see
 [here](http://universaldependencies.org/release_checklist.html#repository-branches).
 
-Changes should be made via pull request directly to `not-to-release/petrogold.conllu` in the `dev` branch.
+Changes should be made via pull request directly to `not-to-release/dantestocks.conllu` in the `dev` branch.
