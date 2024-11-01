@@ -3,11 +3,11 @@
 
 # Summary
 
-DANTEStocks (Di Felippo et al., 2024) is a collection of Brazilian Portuguese tweets on the stock market domain that is part of Porttinari (which stands for “PORTuguese Treebank”), which shall be a large multigenre treebank for Portuguese (Pardo et al., 2021), following the "Universal Dependencies" international grammar framework (de Marneffe et al., 2021).
+DANTEStocks (Di Felippo et al., 2024) is a collection of Brazilian Portuguese tweets on the stock market domain that is part of Porttinari (“PORTuguese Treebank”), which shall be a large multigenre treebank for Portuguese (Pardo et al., 2021), following the "Universal Dependencies" framework (de Marneffe et al., 2021).
 
 # Introduction
 
-The treebank consists of 4042 tweets and 80997 tokens. To annotate the corpus according to UD, the entire tweet was taken as a basic unit of analysis, which means that the tweets were not segmented into smaller units as sentences, clauses or phrases. Besides, the tweets were not normalized, containing all phenomena typical for social media text in general and for Twitter in particular. The morphological (Silva et al., 2021) and syntactic annotations (Di Felippo et al., 2024) were carried out through alternating steps of automatic processing and manual revision. For the interested reader, DANTEStocks, as well as other related information, may be accessed at [Poetisa Project](https://sites.google.com/icmc.usp.br/poetisa/porttinari).
+The corpus consists of 4,042 tweets and 80,997 tokens. To annotate the corpus according to UD, the entire tweet was taken as a basic unit of analysis, which means that the tweets were not segmented into smaller units as sentences, clauses or phrases. Besides, the tweets were not normalized, containing all phenomena typical to social media text in general and to Twitter in particular. Morphosyntactic (Silva et al., 2021; Di Felippo et al., 2023) and syntactic annotations (Di Felippo et al., 2024) were carried out through alternating steps of automatic processing and manual revision. For the interested reader, DANTEStocks, as well as other related information, may be accessed at [Poetisa Project](https://sites.google.com/icmc.usp.br/poetisa/porttinari).
 
 # Acknowledgements
 
@@ -23,6 +23,7 @@ The treebank has been randomly split as follows:
 # References
 
 - Di Felippo, A.; Nunes, M.G.V.; Barbosa, B. K. S. (2024) A Dependency Treebank of Tweets in Brazilian Portuguese: Syntactic Annotation Issues and Approach. In the Proceedings of the 15th Symposium in Information and Human Language Technology, 2024, Belém, v. 01. p. 01-10.
+- Di Felippo, A.; Roman, N.; Pardo, T.; De Moura, L. (2023) The DANTEStocks Corpus: an analysis of the distribution of Universal Dependencies-based Part-of-Speech tags. Revista da Abralin, 22, 249-271.
 - Silva, E. H.; Pardo, T.A.S.; Roman, N.; Di Felippo, A. (2021) Universal Dependencies for tweets in Brazilian Portuguese: Tokenization and Part of Speech Tagging. In the Proceedings of the 18th National Meeting on Artificial and Computational Intelligence (ENIAC), v. 01. p. 434-445. [Available here](https://sol.sbc.org.br/index.php/eniac/article/view/18273/18107)
 
 # Changelog
