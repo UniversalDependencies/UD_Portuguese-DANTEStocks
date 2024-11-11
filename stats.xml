@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>4042</sentences><tokens>77577</tokens><words>80997</words><fused>3420</fused></total>
+    <train><sentences>3040</sentences><tokens>58371</tokens><words>60932</words><fused>2561</fused></train>
+    <dev><sentences>501</sentences><tokens>9574</tokens><words>10004</words><fused>430</fused></dev>
+    <test><sentences>501</sentences><tokens>9632</tokens><words>10061</words><fused>429</fused></test>
+  </size>
+  <lemmas unique="8785" /><!-- o, de, ,, em, -, ., :, e, !, %, ..., (, ), R$, ser -->
+  <forms unique="10779" /><!-- de, a, ,, em, -, o, ., :, e, !, %, ..., (, ), R$ -->
+  <fusions unique="56" /><!-- da, do, na, no, à, ao, dos, das, nos, aos, pelo, pela, neste, nas, nesta -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">2917</tag><!-- diário, novo, último, financeiro, superior, bom, maior, semanal, histórico, 1º -->
+    <tag name="ADP">8755</tag><!-- de, em, a, para, com, por, sobre, até, sem, após -->
+    <tag name="ADV">2686</tag><!-- não, hoje, mais, agora, só, já, ainda, ontem, muito, aí -->
+    <tag name="AUX">1332</tag><!-- ser, estar, ir, ter, poder, dever, haver, vir -->
+    <tag name="CCONJ">1696</tag><!-- e, mas, ou, pois, nem, porém, então, que, porque, senão -->
+    <tag name="DET">6726</tag><!-- o, um, seu, esse, este, meu, qual, outro, algum, todo -->
+    <tag name="INTJ">146</tag><!-- hein, eh, ah, obrigado, ola, pô, bora, eita, ok, bom -->
+    <tag name="NOUN">12001</tag><!-- ação, indicação, gráfico, dia, rastreamento, volume, ativo, venda, compra, alta -->
+    <tag name="NUM">5021</tag><!-- 13, 5, 3, 10, 15, um, 2, 1, 4, 31/12/2013 -->
+    <tag name="PRON">1297</tag><!-- que, o, se, quem, eu, você, isso, ele, me, nada -->
+    <tag name="PROPN">11762</tag><!-- petr4, #petr4, vale5, petrobras, #vale5, vale, @live_trade, petr3, bbas3, oibr4 -->
+    <tag name="PUNCT">13126</tag><!-- ,, ., -, :, !, ..., (, ), ?, ' -->
+    <tag name="SCONJ">754</tag><!-- que, se, quando, porque, como, pois, enquanto, caso, quanto, conforme -->
+    <tag name="SYM">4438</tag><!-- %, R$, -, +, http://t.co/kgt1YiTbF7, $, http://t.co/zJRs3Eeyz9, o.O, US$, x -->
+    <tag name="VERB">6586</tag><!-- romper, analisar, ter, comprar, conferir, subir, fazer, ver, resultar, cair -->
+    <tag name="X">1754</tag><!-- RT, #vale5, #infomoney, #petr4, $LIGT3, _, #ibov, rsrsr, #bovespa, #BR -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="38">
+    <feat name="Abbr" value="Yes" upos="ADJ,ADV,AUX,NOUN">884</feat><!-- vol, tá, hj, bi, mm, ta, obj, ñ, cons, cp -->
+    <feat name="Case" value="Acc" upos="PRON">39</feat><!-- me, a, mim, la, nos, se, te -->
+    <feat name="Case" value="Dat" upos="PRON">47</feat><!-- me, lhe, te, lhes, nos, ti -->
+    <feat name="Case" value="Nom" upos="PRON">357</feat><!-- se, eu, ela, vc, você, ele, eles, vcs, vocês, elas -->
+    <feat name="Definite" value="Def" upos="DET,PRON">5563</feat><!-- a, o, os, as, e, às -->
+    <feat name="Definite" value="Ind" upos="DET,PRON">384</feat><!-- uma, um, uns, umas -->
+    <feat name="Foreign" value="Yes" upos="PROPN,X">123</feat><!-- Webcast, #Whoknows, loss, shooting, star, stop, top, by, ha, picks -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN,VERB">10725</feat><!-- a, ações, as, indicação, uma, nova, sua, última, venda, compra -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">10606</feat><!-- o, os, gráfico, diário, um, Rastreamento, dia, ativo, financeiro, vol -->
+    <feat name="Mood" value="Cnd" upos="AUX,VERB">61</feat><!-- seria, poderia, teria, venderia, compraria, deveria, diria, estaria, aconteceria, colocaria -->
+    <feat name="Mood" value="Imp" upos="AUX,VERB">804</feat><!-- analise, confira, veja, saiba, Assista, olha, entre, Prepare, leia, conheça -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">4482</feat><!-- é, resultou, vai, tem, está, foi, tá, fechou, sobe, pode -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">378</feat><!-- romper, seja, fechar, for, perder, quiser, fosse, tiver, bater, comece -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">5400</feat><!-- ações, os, as, 16h, suportes, resistências, 14h, financeiras, demonstracoes, 12h -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">23057</feat><!-- a, o, é, indicação, gráfico, diário, romper, analise, Rastreamento, uma -->
+    <feat name="NumType" value="Card" upos="NUM">5018</feat><!-- 13, 5, 3, 10, 15, 2, 1, 4, 31/12/2013, 6 -->
+    <feat name="NumType" value="Ord" upos="ADJ">81</feat><!-- 1º, terceiro, 4º, 1ª, 2º, 3º, 4°, 5º, décimo, oitavo -->
+    <feat name="Person" value="1" upos="AUX,PRON,VERB">811</feat><!-- eu, me, vou, vamos, acho, estava, estou, sei, tenho, comprei -->
+    <feat name="Person" value="2" upos="AUX,PRON,VERB">181</feat><!-- vc, olha, você, te, vcs, vocês, dá, segue, vende, Abre -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">5307</feat><!-- é, romper, analise, confira, resultou, vai, tem, se, está, o -->
+    <feat name="Poss" value="Yes" upos="DET,PRON">318</feat><!-- sua, seu, meu, suas, minha, nossa, minhas, seus, nosso, meus -->
+    <feat name="PronType" value="Art" upos="DET,PRON,PROPN">5947</feat><!-- a, o, os, as, uma, um, uns, umas, #PETR4, e -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">512</feat><!-- o, isso, essa, esse, esta, este, mesmo, aquela, os, a -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">398</feat><!-- quem, que, nada, tudo, mais, outras, alguma, todos, alguém, outros -->
+    <feat name="PronType" value="Int" upos="DET,PRON">80</feat><!-- qual, quais, quem, q, quê, Que, Qum, o, quantos -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">761</feat><!-- sua, se, eu, ela, me, vc, seu, meu, suas, minha -->
+    <feat name="PronType" value="Rel" upos="DET,PRON">313</feat><!-- que, q, quem, qq, qual, quer, quê -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">457</feat><!-- romper, será, terá, fará, fechar, for, perder, haverá, quiser, distribuirá -->
+    <feat name="Tense" value="Imp" upos="AUX,VERB">146</feat><!-- estava, era, ia, valia, queria, tinha, eram, Diziam, tava, abriam -->
+    <feat name="Tense" value="Past" upos="AUX,VERB">1334</feat><!-- resultou, foi, fechou, foram, finalizou, bateu, subiu, deu, fez, comprou -->
+    <feat name="Tense" value="Pqp" upos="VERB">1</feat><!-- tomara -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">2918</feat><!-- é, vai, tem, está, tá, sobe, pode, diz, estão, ta -->
+    <feat name="Typo" value="Yes" upos="ADJ,ADV,AUX,CCONJ,DET,NOUN,NUM,PRON,PROPN,SCONJ,VERB">1087</feat><!-- demonstracoes, petrobrás, ta, Distribuicao, nao, ai, alteracao, ja, Ingles, to -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">5723</feat><!-- é, romper, analise, confira, resultou, vai, tem, está, foi, tá -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">528</feat><!-- caindo, subindo, comprando, falando, fazendo, dando, fechando, chegando, sendo, testando -->
+    <feat name="VerbForm" value="Inf" upos="AUX,VERB">1189</feat><!-- comprar, ver, vender, ser, ter, subir, fazer, saber, entrar, dar -->
+    <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">518</feat><!-- indicado, ajustadas, comprado, postado, vendido, feito, administrada, atualizado, cancelado, capitalizada -->
+    <feat name="Voice" value="Pass" upos="VERB">145</feat><!-- ajustadas, capitalizada, divulgada, postado, rebaixados, Indicados, alterada, anunciados, arbitrada, cancelado -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="44">
+    <dep name="acl">458</dep>
+    <dep name="acl:relcl">288</dep>
+    <dep name="advcl">704</dep>
+    <dep name="advmod">3088</dep>
+    <dep name="amod">2436</dep>
+    <dep name="appos">1021</dep>
+    <dep name="aux">414</dep>
+    <dep name="aux:pass">101</dep>
+    <dep name="case">8185</dep>
+    <dep name="cc">1699</dep>
+    <dep name="ccomp">261</dep>
+    <dep name="ccomp:speech">30</dep>
+    <dep name="conj">4871</dep>
+    <dep name="cop">724</dep>
+    <dep name="csubj">104</dep>
+    <dep name="dep">79</dep>
+    <dep name="det">6722</dep>
+    <dep name="discourse">592</dep>
+    <dep name="dislocated">5</dep>
+    <dep name="expl">122</dep>
+    <dep name="fixed">269</dep>
+    <dep name="flat">14</dep>
+    <dep name="flat:foreign">34</dep>
+    <dep name="flat:name">691</dep>
+    <dep name="goeswith">26</dep>
+    <dep name="iobj">50</dep>
+    <dep name="list">537</dep>
+    <dep name="mark">1151</dep>
+    <dep name="nmod">9027</dep>
+    <dep name="nmod:tmod">1</dep>
+    <dep name="nsubj">3240</dep>
+    <dep name="nsubj:outer">11</dep>
+    <dep name="nsubj:pass">106</dep>
+    <dep name="nummod">2290</dep>
+    <dep name="obj">3012</dep>
+    <dep name="obl">3184</dep>
+    <dep name="obl:agent">28</dep>
+    <dep name="orphan">21</dep>
+    <dep name="parataxis">6736</dep>
+    <dep name="punct">13126</dep>
+    <dep name="reparandum">16</dep>
+    <dep name="root">4042</dep>
+    <dep name="vocative">982</dep>
+    <dep name="xcomp">499</dep>
+  </deps>
+</treebank>
