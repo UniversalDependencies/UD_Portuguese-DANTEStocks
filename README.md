@@ -28,9 +28,9 @@ The treebank has been randomly split as follows:
 
 # Changelog
 
-* 2025-05-01 v2.1
+* 2025-05-01 v2.16 (DANTEStocks v2.1)
   * Release of 2.1 version of DANTEStocks in Universal Dependencies, adding ExtPos features.
-* 2024-11-15 v1.0
+* 2024-11-15 v2.15 (DANTEStocks v1.0)
   * Initial release in Universal Dependencies: 1st version of DANTEStocks.
   
 <pre>
