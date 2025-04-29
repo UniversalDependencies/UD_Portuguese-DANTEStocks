@@ -3914,7 +3914,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17-18	pelo	_	_	_	_	_	_	_	_
 17	por	por	ADP	_	ExtPos=ADV	21	advmod	_	_
-18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+18	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	fixed	_	_
 19	menos	menos	NOUN	_	Gender=Masc|Number=Sing	17	fixed	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	retornar	retornar	VERB	_	VerbForm=Inf	14	acl	_	_
