@@ -11816,7 +11816,7 @@
 # text = ao menos uma boa notícia ... a Fitch não mexeu na nota da #PETR4 ...
 1-2	ao	_	_	_	_	_	_	_	_
 1	a	a	ADP	_	ExtPos=ADV	6	advmod	_	_
-2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	det	_	_
+2	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	fixed	_	_
 3	menos	menos	ADV	_	_	1	fixed	_	_
 4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	boa	bom	ADJ	_	Gender=Fem|Number=Sing	6	amod	_	_
@@ -12109,7 +12109,7 @@
 12	.	.	PUNCT	_	_	1	punct	_	_
 13-14	Pelo	_	_	_	_	_	_	_	_
 13	Por	por	ADP	_	ExtPos=ADV	20	advmod	_	_
-14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+14	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	fixed	_	_
 15	menos	menos	NOUN	_	Gender=Masc|Number=Sing	13	fixed	_	_
 16	as	o	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	Mm	mm	NOUN	_	Gender=Fem|Number=Sing|Typo=Yes	20	nsubj	_	CorrectForm=Mms|CorrectNumber=Plur
@@ -28469,7 +28469,7 @@
 15	,	,	PUNCT	_	_	14	punct	_	_
 16-17	pelo	_	_	_	_	_	_	_	_
 16	por	por	ADP	_	ExtPos=ADV	20	advmod	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
 18	menos	menos	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	_
 19	já	já	ADV	_	_	20	advmod	_	_
 20	temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
@@ -35013,7 +35013,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10-11	pelo	_	_	_	_	_	_	_	_
 10	por	por	ADP	_	ExtPos=ADV	3	advmod	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	_	_
 12	menos	menos	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	SpaceAfter=No
 13	…	…	PUNCT	_	_	3	punct	_	_
 
@@ -36000,7 +36000,7 @@
 9	assinado	assinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	_
 10-11	pelo	_	_	_	_	_	_	_	_
 10	por	por	ADP	_	ExtPos=ADV	15	advmod	_	_
-11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+11	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	fixed	_	_
 12	menos	menos	NOUN	_	Gender=Masc|Number=Sing	10	fixed	_	_
 13	R$	R$	SYM	_	_	15	nmod	_	_
 14	90	90	NUM	_	NumType=Card	15	nummod	_	_
@@ -44357,7 +44357,7 @@
 18	assinado	assinar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	2	parataxis	_	_
 19-20	pelo	_	_	_	_	_	_	_	_
 19	por	por	ADP	_	ExtPos=ADV	24	advmod	_	_
-20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+20	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	fixed	_	_
 21	menos	menos	NOUN	_	Gender=Masc|Number=Sing	19	fixed	_	_
 22	R$	R$	SYM	_	_	24	nmod	_	_
 23	90	90	NUM	_	NumType=Card	24	nummod	_	_
@@ -53401,7 +53401,7 @@
 19	,	,	PUNCT	_	_	25	punct	_	_
 20-21	ao	_	_	_	_	_	_	_	_
 20	a	a	ADP	_	ExtPos=ADV	25	advmod	_	_
-21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	fixed	_	_
 22	menos	menos	ADV	_	_	20	fixed	_	_
 23-24	na	_	_	_	_	_	_	_	_
 23	em	em	ADP	_	_	25	case	_	_
@@ -53497,7 +53497,7 @@
 22	vá	ir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	conj	_	_
 23-24	pelo	_	_	_	_	_	_	_	_
 23	por	por	ADP	_	ExtPos=ADV	22	advmod	_	_
-24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+24	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	fixed	_	_
 25	menos	menos	NOUN	_	Gender=Masc|Number=Sing	23	fixed	_	_
 26	a	a	ADP	_	_	27	case	_	_
 27	$	$	SYM	_	_	22	obl	_	SpaceAfter=No
@@ -64056,7 +64056,7 @@
 7	Redecard	Redecard	PROPN	_	_	4	nmod	_	_
 8-9	ao	_	_	_	_	_	_	_	_
 8	a	a	ADP	_	ExtPos=ADV	11	advmod	_	_
-9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+9	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	fixed	_	_
 10	menos	menos	NOUN	_	Gender=Masc|Number=Sing	8	fixed	_	_
 11	pagaram	pagar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
 12	mais	mais	ADV	_	_	11	advmod	_	_

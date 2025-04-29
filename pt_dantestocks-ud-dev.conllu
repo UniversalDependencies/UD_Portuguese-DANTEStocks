@@ -6981,7 +6981,7 @@
 8	?	?	PUNCT	_	_	2	punct	_	_
 9-10	pelo	_	_	_	_	_	_	_	_
 9	por	por	ADP	_	ExtPos=ADV	13	advmod	_	_
-10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+10	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	fixed	_	_
 11	menos	menos	NOUN	_	Gender=Masc|Number=Sing	9	fixed	_	_
 12	até	até	ADP	_	_	13	case	_	_
 13	agora	agora	ADV	_	_	17	advmod	_	_
@@ -7176,7 +7176,7 @@
 15	...	...	PUNCT	_	_	20	punct	_	_
 16-17	pelo	_	_	_	_	_	_	_	_
 16	por	por	ADP	_	ExtPos=ADV	20	advmod	_	_
-17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+17	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
 18	menos	menos	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	_
 19	pra	para	ADP	_	_	20	case	_	FullForm=para
 20	quem	quem	PRON	_	PronType=Ind	7	obl	_	_
