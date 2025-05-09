@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Portuguese-DANTEStocks:
-commit 8822d92a351d1e0c2064255d594236cbbdd8fe94
+commit af50e1c2e1c344dbff2e3481c6d91740a0c481ee
+Merge: 1dae8f8 34c74dd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 12:44:18 2024 +0100
-Size: counted 80997 of 80997 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.78882423389903.
+Size: counted 80996 of 80996 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.78879954147405.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,45 +15,30 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 36253 out of 80997 total words have one or more features.
+Features: 36423 out of 80996 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        106
-Udapi: found 106 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 80997 words.
-Genres: found 1 out of 17 known.
+               TOTAL         79
+Udapi: found 79 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 80996 words.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-DANTEStocks/pt_dantestocks-ud-dev.conllu
-[Line 6983 Sent dante_01_443759737176604672l Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'por * menos'
-[Line 7178 Sent dante_01_441331112762023936l Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'por * menos'
-Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-DANTEStocks/pt_dantestocks-ud-test.conllu
-[Line 3916 Sent dante_01_461165220267048960l Node 17]: [L3 Warning fixed-gap] Gaps in fixed expression [17, 19] 'por * menos'
-Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-DANTEStocks/pt_dantestocks-ud-train.conllu
-[Line 11818 Sent dante_01_448885656325197824l Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'a * menos'
-[Line 12111 Sent dante_01_459790105390374913l Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 15] 'Por * menos'
-[Line 28472 Sent dante_01_441229081250906113l Node 16]: [L3 Warning fixed-gap] Gaps in fixed expression [16, 18] 'por * menos'
-[Line 35016 Sent dante_01_449172321107210240l Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'por * menos'
-[Line 36003 Sent dante_01_453164729242894336l Node 10]: [L3 Warning fixed-gap] Gaps in fixed expression [10, 12] 'por * menos'
-[Line 44360 Sent dante_01_453150766136426496l Node 19]: [L3 Warning fixed-gap] Gaps in fixed expression [19, 21] 'por * menos'
-[Line 53404 Sent dante_01_472000340133699584l Node 20]: [L3 Warning fixed-gap] Gaps in fixed expression [20, 22] 'a * menos'
-[Line 53500 Sent dante_01_446337585221103617l Node 23]: [L3 Warning fixed-gap] Gaps in fixed expression [23, 25] 'por * menos'
-[Line 64059 Sent dante_01_444526579067396096l Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 10] 'a * menos'
-Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.636156311199987) = 0.163117002871792
+(weight=0.256410256410256) * (score{size}=0.636154523902668) = 0.163116544590428
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.986913095546749) = 0.303665567860538
+(weight=0.307692307692308) * (score{udapi}=0.990246431922564) = 0.304691209822327
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.783137387087146) * (availability=1) * (validity=1) = 0.783137387087146
+(TOTAL score=0.783911188163248) * (availability=1) * (validity=1) = 0.783911188163248
 STARS = 4
-UD_Portuguese-DANTEStocks	0.783137387087146	4
+UD_Portuguese-DANTEStocks	0.783911188163248	4
