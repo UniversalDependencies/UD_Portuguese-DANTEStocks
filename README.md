@@ -38,6 +38,7 @@ The treebank has been randomly split as follows:
 Data available since: UD v2.15
 License: CC BY 4.0
 Includes text: yes
+Parallel: no
 Genre: social
 Lemmas: manual native
 UPOS: manual native
