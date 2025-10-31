@@ -5557,7 +5557,7 @@
 15	a	a	ADP	_	_	17	case	_	_
 16	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
 17	vendidos	vendido	NOUN	_	Gender=Masc|Number=Plur	19	obl	_	_
-18	sem	sem	PRON	_	Case=Nom|Person=3|PronType=Prs|Typo=Yes	19	expl	_	CorrectForm=se
+18	sem	sem	PRON	_	Typo=Yes	19	expl	_	CorrectForm=sem
 19	surpreendam	supreender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
 20	!	!	PUNCT	_	_	7	punct	_	_
 21	Vamos	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
@@ -8988,7 +8988,7 @@
 3	de	de	ADP	_	_	5	case	_	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	2	nmod	_	_
-6	e	ser	VERB	_	Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Inf	0	root	_	CorrectForm=é
+6	e	ser	VERB	_	Number=Sing|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	0	root	_	CorrectForm=é
 7	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	cia	companhia	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	6	obj	_	FullForm=companhia
 9	petrolifera	petrolífero	ADJ	_	Gender=Fem|Number=Sing|Typo=Yes	8	amod	_	CorrectForm=petrolífera
@@ -10085,7 +10085,7 @@
 3	mesmo	mesmo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
 4	que	que	PRON	_	PronType=Rel	5	reparandum	_	_
 5	jeito	jeito	NOUN	_	Gender=Masc|Number=Sing	17	obl	_	_
-6	que	que	PRON	_	PronType=Rel	8	obl	_	_
+6	que	que	PRON	_	_	8	obl	_	_
 7	nunca	nunca	ADV	_	_	8	advmod	_	_
 8	presenciamos	presenciar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
 9	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_

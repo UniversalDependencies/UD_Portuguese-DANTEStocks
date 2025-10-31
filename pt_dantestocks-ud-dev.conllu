@@ -1649,7 +1649,7 @@
 17	q	que	SCONJ	_	_	18	mark	_	FullForm=que
 18	fazer	fazer	VERB	_	VerbForm=Inf	16	xcomp	_	_
 19	o	o	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	obj	_	_
-20	q	que	PRON	_	PronType=Rel	23	obj	_	FullForm=que
+20	q	que	PRON	_	_	23	obj	_	FullForm=que
 21	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 22	governo	governo	NOUN	_	Gender=Masc|Number=Sing	23	nsubj	_	_
 23	manda	mandar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	acl:relcl	_	SpaceAfter=No
@@ -3030,7 +3030,7 @@
 
 # sent_id = dante_01_469903994593501184l
 # text = #embr3 dando show desde dia 20
-1	#embr3	#embr3	PROPN	_	_	2	nsubj	_	_
+1	#embr3	#embr3	PROPN	_	_	2	obj	_	_
 2	dando	dar	VERB	_	VerbForm=Ger	0	root	_	_
 3	show	show	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	_
 4	desde	desde	ADP	_	_	5	case	_	_
@@ -5161,7 +5161,7 @@
 7	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	operação	operação	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-10	q	que	PRON	_	PronType=Rel	11	obj	_	FullForm=que
+10	q	que	PRON	_	_	11	obj	_	FullForm=que|PronTypo=Rel
 11	montei	montar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
 12	ontem	ontem	ADV	_	_	11	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	22	punct	_	_
@@ -7166,7 +7166,7 @@
 6	mais	mais	ADV	_	_	7	advmod	_	_
 7	feio	feio	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 8	que	que	SCONJ	_	_	9	mark	_	_
-9	encoxar	encoxar	VERB	_	VerbForm=Inf	7	advcl	_	_
+9	encoxar	encoxar	VERB	_	VerbForm=Fin	7	advcl	_	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	_
 12-13	no	_	_	_	_	_	_	_	_
