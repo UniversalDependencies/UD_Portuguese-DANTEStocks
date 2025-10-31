@@ -2056,25 +2056,27 @@
 8	#BBAS3	#BBAS3	PROPN	_	_	7	nmod	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
 10	alugaram	alugar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	parataxis	_	_
-11	2x	2x	NOUN	_	Gender=Fem|Number=Plur	10	obj	_	_
-12	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obj	_	_
-13	que	que	PRON	_	PronType=Rel	14	nsubj	_	_
-14	negociou	negociar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
-15	ontem	ontem	ADV	_	_	14	advmod	_	SpaceAfter=No
-16	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	18	punct	_	_
-18	#PETR4	#PETR4	PROPN	_	_	7	conj	_	_
-19	(	(	PUNCT	_	_	20	punct	_	SpaceAfter=No
-20	tx	taxa	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	18	parataxis	_	FullForm=taxa
-21	max	máximo	ADJ	_	Abbr=Yes|Gender=Fem|Number=Sing	20	amod	_	FullForm=máxima
-22	180d	180d	NOUN	_	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
-23	)	)	PUNCT	_	_	20	punct	_	_
-24	além	além	ADV	_	_	7	advmod	_	_
-25	de	de	ADP	_	_	26	case	_	_
-26	#RENT3	#RENT3	PROPN	_	_	24	obl	_	_
-27	e	e	CCONJ	_	_	28	cc	_	_
-28	#KROT3	#KROT3	PROPN	_	_	26	conj	_	_
-29	@ferrisss	@ferrisss	PROPN	_	_	7	vocative	_	_
+11-12	2x	_	_	_	_	_	_	_	_
+11	2	2	NUM	_	Gender=Fem|NumType=Card	12	nummod	_	_
+12	x	vezes	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	_
+13	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	obj	_	_
+14	que	que	PRON	_	PronType=Rel	15	nsubj	_	_
+15	negociou	negociar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
+16	ontem	ontem	ADV	_	_	15	advmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	10	punct	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	19	punct	_	_
+19	#PETR4	#PETR4	PROPN	_	_	7	conj	_	_
+20	(	(	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	tx	taxa	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	19	parataxis	_	FullForm=taxa
+22	max	máximo	ADJ	_	Abbr=Yes|Gender=Fem|Number=Sing	21	amod	_	FullForm=máxima
+23	180d	180d	NOUN	_	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	21	punct	_	_
+25	além	além	ADV	_	_	7	advmod	_	_
+26	de	de	ADP	_	_	27	case	_	_
+27	#RENT3	#RENT3	PROPN	_	_	25	obl	_	_
+28	e	e	CCONJ	_	_	29	cc	_	_
+29	#KROT3	#KROT3	PROPN	_	_	27	conj	_	_
+30	@ferrisss	@ferrisss	PROPN	_	_	7	vocative	_	_
 
 # sent_id = dante_01_455712621023723520l
 # text = Natura perdeu a liderança no segmento de perfumes para O Boticário, segundo pesquisa da Euromonitor. #NATU3,  -0,12% em 2014.
@@ -5739,7 +5741,7 @@
 17	ñ	não	ADV	_	Abbr=Yes	18	advmod	_	FullForm=não
 18	permitirá	permitir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	parataxis	_	_
 19	q	que	SCONJ	_	_	21	mark	_	FullForm=que
-20	se	se	PRON	_	_	21	expl	_	_
+20	se	se	PRON	_	PronType=Prs	21	expl	_	_
 21	utilizem	utilizar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	_
 22	ações	ação	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
 23	p/	para	ADP	_	_	24	mark	_	FullForm=para
@@ -16883,7 +16885,7 @@
 6	Vamos	ir	AUX	_	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin	7	aux	_	_
 7	ficar	ficar	VERB	_	VerbForm=Inf	4	parataxis	_	_
 8	atentos	atento	ADJ	_	Gender=Masc|Number=Plur	7	xcomp	_	_
-9	o	o	PRON	_	_	8	obl	_	_
+9	o	o	PRON	_	PronType=Art	8	obl	_	_
 10	que	que	PRON	_	PronType=Rel	11	obj	_	_
 11	postei	postar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
 12	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -30680,7 +30682,7 @@
 3	nova	novo	ADJ	_	Gender=Fem|Number=Sing	4	amod	_	_
 4	WW	WW	SYM	_	_	5	nsubj	_	_
 5	anula	anular	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	a	o	PRON	_	Gender=Fem|Number=Sing	5	obj	_	_
+6	a	o	PRON	_	Gender=Fem|Number=Sing|PronType=Art	5	obj	_	_
 7	anterior	anterior	ADJ	_	Number=Sing	6	amod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 9	Pode	poder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
@@ -42269,7 +42271,7 @@
 20	fevereiro	fevereiro	NOUN	_	Gender=Masc|Number=Sing	30	obl	_	_
 21	de	de	ADP	_	_	22	case	_	_
 22	2003	2003	NUM	_	NumType=Card	20	nmod	_	_
-23	inicio	início	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	30	obj	_	CorrectForm=início
+23	inicio	início	NOUN	_	Gender=Masc|Number=Sing|Typo=Yes	20	appos	_	CorrectForm=início
 24	de	de	ADP	_	_	25	case	_	_
 25	Lula	Lula	PROPN	_	_	23	nmod	_	_
 26	pós	pós	ADP	_	_	27	case	_	_
@@ -45879,7 +45881,7 @@
 # text = Agora entendem pq eu estava tranquilo comprando #petr4 #BBAS3 e #vale5 Agora ficou desenhado para os q não entendiam.
 1	Agora	agora	ADV	_	_	2	advmod	_	_
 2	entendem	entender	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pq	porque	PRON	_	_	6	obl	_	FullForm=por que
+3	pq	porque	PRON	_	PronType=Rel	6	obl	_	FullForm=por que
 4	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 5	estava	estar	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
 6	tranquilo	tranquilo	ADJ	_	Gender=Masc|Number=Sing	2	ccomp	_	_
@@ -54304,7 +54306,7 @@
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	eu	eu	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 9	citei	citar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
-10	uma	um	PRON	_	Gender=Fem	9	obj	_	_
+10	uma	um	PRON	_	Gender=Fem|PronType=Ind	9	obj	_	_
 11	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Petr4	Petr4	PROPN	_	_	10	parataxis	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
@@ -57909,7 +57911,7 @@
 24	digna	digno	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	as	às	ADP	_	_	27	case	_	_
 26	minhas	meu	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	27	det	_	_
-27	filhas	filho	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+27	filhas	filho	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
 28	2652-2931	2652-2931	NUM	_	NumType=Card	3	parataxis	_	_
 
 # sent_id = dante_01_446655455205797888l
@@ -67249,8 +67251,8 @@
 # text = LLXL3 comprar a R$ 0.88 indicado em 19/03/2014 15:43 e finalizou a venda com resultado de R$ 0.12 ou 13.64 % http://t.co/kgt1YiTbF7
 1	LLXL3	LLXL3	PROPN	_	_	2	obj	_	_
 2	comprar	comprar	VERB	_	VerbForm=Inf	0	root	_	_
-3	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	R$	R$	SYM	_	_	2	obj	_	_
+3	a	a	ADP	_	_	4	obl	_	_
+4	R$	R$	SYM	_	_	1	nmod	_	_
 5	0.88	0.88	NUM	_	NumType=Card	4	nummod	_	_
 6	indicado	indicar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	4	acl	_	_
 7	em	em	ADP	_	_	8	case	_	_
@@ -67370,7 +67372,7 @@
 24	digna	digno	ADJ	_	Gender=Fem|Number=Sing	23	amod	_	_
 25	as	às	ADP	_	_	27	case	_	_
 26	minhas	meu	DET	_	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	27	det	_	_
-27	filhas	filho	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	_
+27	filhas	filho	NOUN	_	Gender=Fem|Number=Plur	21	obl	_	_
 
 # sent_id = dante_01_445772239213195264l
 # text = Macktrader Investimentos : Vale PN (VALE5), Gráfico Semanal. Estudo das Médias Móveis x Botões... http://t.co/gDpBdKytea
@@ -71022,25 +71024,27 @@
 11	#BBAS3	#BBAS3	PROPN	_	_	10	nmod	_	_
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	alugaram	alugar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	parataxis	_	_
-14	2x	2x	NOUN	_	Gender=Fem|Number=Plur	13	obj	_	_
-15	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	obj	_	_
-16	que	que	PRON	_	PronType=Rel	17	nsubj	_	_
-17	negociou	negociar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	acl:relcl	_	_
-18	ontem	ontem	ADV	_	_	17	advmod	_	SpaceAfter=No
-19	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	21	punct	_	_
-21	#PETR4	#PETR4	PROPN	_	_	10	conj	_	_
-22	(	(	PUNCT	_	_	23	punct	_	SpaceAfter=No
-23	tx	taxa	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	21	parataxis	_	FullForm=taxa
-24	max	máximo	ADJ	_	Abbr=Yes|Gender=Fem|Number=Sing	23	amod	_	FullForm=máxima
-25	180d	180d	NOUN	_	Gender=Masc|Number=Plur	23	nmod	_	SpaceAfter=No
-26	)	)	PUNCT	_	_	23	punct	_	_
-27	além	além	ADV	_	_	10	advmod	_	_
-28	de	de	ADP	_	_	29	case	_	_
-29	#RENT3	#RENT3	PROPN	_	_	27	obl	_	_
-30	e	e	CCONJ	_	_	31	cc	_	_
-31	#K	#K	PROPN	_	_	29	conj	_	FullForm=#KROT3|Trunc=Yes|SpaceAfter=No
-32	…	…	PUNCT	_	_	10	punct	_	_
+14-15	2x	_	_	_	_	_	_	_	_
+14	2	2	NUM	_	Gender=Fem|NumType=Card	15	nummod	_	_
+15	x	vezes	NOUN	_	Gender=Fem|Number=Plur	13	obl	_	_
+16	o	o	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	obj	_	_
+17	que	que	PRON	_	PronType=Rel	18	nsubj	_	_
+18	negociou	negociar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	acl:relcl	_	_
+19	ontem	ontem	ADV	_	_	18	advmod	_	SpaceAfter=No
+20	)	)	PUNCT	_	_	13	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	#PETR4	#PETR4	PROPN	_	_	10	conj	_	_
+23	(	(	PUNCT	_	_	24	punct	_	SpaceAfter=No
+24	tx	taxa	NOUN	_	Abbr=Yes|Gender=Fem|Number=Sing	22	parataxis	_	FullForm=taxa
+25	max	máximo	ADJ	_	Abbr=Yes|Gender=Fem|Number=Sing	24	amod	_	FullForm=máxima
+26	180d	180d	NOUN	_	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+27	)	)	PUNCT	_	_	24	punct	_	_
+28	além	além	ADV	_	_	10	advmod	_	_
+29	de	de	ADP	_	_	30	case	_	_
+30	#RENT3	#RENT3	PROPN	_	_	28	obl	_	_
+31	e	e	CCONJ	_	_	32	cc	_	_
+32	#K	#K	PROPN	_	_	30	conj	_	FullForm=#KROT3|Trunc=Yes|SpaceAfter=No
+33	…	…	PUNCT	_	_	10	punct	_	_
 
 # sent_id = dante_01_441566550881878016l
 # text = Análises técnicas para IBOV, S&P500, PETR4, VALE5, ABEV3, VIVT4, CMIG4, NATU3, ITUB4, PDGR3 e GGBR4!  http://t.co/8N3CGt0WUa

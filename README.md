@@ -28,6 +28,10 @@ The treebank has been randomly split as follows:
 
 # Changelog
 
+* 2025-10-31 v2.17 (DANTEStocks v2.1.1)
+  * Release of version 2.1.1 of DANTEStocks in Universal Dependencies, with:
+    - Fix for the UD validator error “too many direct objects” (verbs annotated with >1 `obj`);
+    - Addition of missing `PronType` to some `PRON` tokens.
 * 2025-05-01 v2.16 (DANTEStocks v2.1)
   * Release of 2.1 version of DANTEStocks in Universal Dependencies, adding ExtPos features.
 * 2024-11-15 v2.15 (DANTEStocks v1.0)
