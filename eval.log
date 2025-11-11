@@ -1,0 +1,43 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Portuguese-DANTEStocks:
+commit a3a9d3d7b07552e431505fedc62a2184feb7c63f
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:24:36 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'pt_dantestocks'
+Language code (from CoNLL-U file name) = 'pt'
+Found the following data files: pt_dantestocks-ud-dev.conllu, pt_dantestocks-ud-test.conllu, pt_dantestocks-ud-train.conllu
+Size: counted 80998 of 80998 words (nodes).
+Size: min(0, log((N/1000)**2)) = 8.78884892601915.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 36430 out of 80998 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 35 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-DANTEStocks/pt_dantestocks-ud-dev.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-DANTEStocks/pt_dantestocks-ud-test.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang pt --max-err=10 UD_Portuguese-DANTEStocks/pt_dantestocks-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.63615809847524) = 0.235614110546385
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.692207959297097) * (availability=1) * (validity=1) = 0.692207959297097
+STARS = 3.5
+UD_Portuguese-DANTEStocks	0.692207959297097	3.5
